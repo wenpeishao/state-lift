@@ -156,9 +156,6 @@ SLURM does not expand shell variables inside `#SBATCH` directives, so pass the p
 
 ## Known gaps
 
-* One result file is **not** in `results/`: `r14d_combined.json` (Table 8, RLHFlow and
-  trl-MathShepherd rows; the values are in the paper). `scripts/statelift/r14d_more_math.py`, which
-  produces it, is included.
 * The base image of Figure 1 (`figures/source/fig0_headline.png`) was drawn with an external tool;
   `gen_fig0_headline_cr.py` only edits and annotates it.
 * LoRA adapter weights (`results/multiseed/adapters/`) are not included (size); the per-seed JSON
