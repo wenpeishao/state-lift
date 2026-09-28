@@ -28,6 +28,50 @@ Llama-3.1-8B LoRA reward-model training, characterises where the probe fails (fi
 step grading), and audits the proxy pitfalls that make naive versions of the measurement
 misleading.
 
+## Main result
+
+State-lift on the paper's evaluation domains (Table 2 of the paper; MiniLM-L6 + PCA-16 + Ridge,
+trajectory-grouped folds where the label is trajectory-level). The context-correctness rows are
+upper bounds on the mechanism; no genuine-label domain clears the 0.10 threshold.
+
+| Domain | Label type | SL | Script |
+|---|---|---|---|
+| Math reasoning (GSM8K) | context-correctness | 0.584 | `scripts/statelift/t10_mechanism_alignment.py` |
+| Tool-use agents (Glaive) | context-correctness | 0.398 | `scripts/statelift/t8b_agent_domains.py` |
+| Code reasoning (CodeContests) | context-correctness | 0.003 | `scripts/statelift/t10_mechanism_alignment.py` |
+| DealOrNoDeal | deal outcome | 0.057 | `scripts/statelift/r19b_sl_r17d_recipe_cv.py` |
+| ESConv | strategy progress | 0.028 | `scripts/statelift/t10_mechanism_alignment.py` |
+| ProsocialDialog | rule-of-thumb adherence | 0.024 | `scripts/statelift/r26_prosocial_sl_grouped.py` |
+| USS-Satisfaction | turn satisfaction | 0.012 | `scripts/statelift/r24_uss_sl_grouped.py` |
+| CraigslistBargain | deal outcome | 0.003 | `scripts/statelift/r29_craigslist_prereg_sl.py` |
+| AirDialogue | booking outcome | 0.001 | `scripts/statelift/r25_airdialogue_sl_grouped.py` |
+| CaSiNo | deal outcome | -0.003 | `scripts/statelift/r19b_sl_r17d_recipe_cv.py` |
+| PersuasionForGood | donation outcome | -0.001 | `scripts/statelift/r22_p4g_sl_grouped.py` |
+| HH-RLHF | preference | -0.003 | `scripts/statelift/t10_mechanism_alignment.py` |
+
+Matched Llama-3.1-8B LoRA reward-model training (Table 3) and the truncated-training escalation
+(Table 11) are produced by `scripts/training/e6_multiseed_sscc.py` and
+`scripts/statelift/r48_ets_analysis.py`; the per-seed outputs are bundled under `results/multiseed/`.
+
+## Quick start
+
+Everything below runs on CPU from the repository root.
+
+```bash
+# 1. State-lift on GSM8K, ESConv, HH-RLHF and CodeContests (downloads the datasets from the HF hub,
+#    embeds with MiniLM; ~10-20 min on a laptop). Writes results/t10_mechanism_alignment.json.
+python scripts/statelift/t10_mechanism_alignment.py
+
+# 2. Admissibility audit (Table 1) on any preprocessed pairwise .pt file.
+python scripts/statelift/admissibility_audit.py --pt data/e4_hh_data.pt
+
+# 3. Truncated-training read (Table 11) from the bundled training curves; instant.
+python scripts/statelift/r48_ets_analysis.py
+
+# 4. Regenerate the paper figures into figures/out/.
+python figures/gen_fig1_cr.py && python figures/gen_fig_sl_vs_lift_cr2.py && python figures/gen_all_nature_style.py
+```
+
 ## Layout
 
 ```
@@ -154,13 +198,9 @@ SLURM does not expand shell variables inside `#SBATCH` directives, so pass the p
 `sbatch -p ...` (the `${SLURM_PARTITION:-gpu}` in the header is a placeholder to edit). Set
 `HF_HUB_OFFLINE=1` only if `LLAMA_PATH` points to a local directory.
 
-## Known gaps
-
-* The base image of Figure 1 (`figures/source/fig0_headline.png`) was drawn with an external tool;
-  `gen_fig0_headline_cr.py` only edits and annotates it.
-* LoRA adapter weights (`results/multiseed/adapters/`) are not included (size); the per-seed JSON
-  results and training curves are.
-* Some preprocessed `.pt` files have no builder in this release (see "Not included" above).
+The per-seed result JSONs and training curves of every run in the paper are bundled under
+`results/multiseed/`; the LoRA adapter weights themselves are not (about 300 MB) and are available
+on request.
 
 ## License
 
