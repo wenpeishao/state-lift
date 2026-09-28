@@ -1,0 +1,15 @@
+{
+  "random": {
+    "r2_action": 0.0868498088158223,
+    "r2_state_action": 0.1638928946764196,
+    "sl": 0.0770430858605973
+  },
+  "grouped": {
+    "r2_action": 0.08495130243566887,
+    "r2_state_action": 0.16040798787132277,
+    "sl": 0.0754566854356539
+  },
+  "n": 12000,
+  "label_definition": "success = booking reference pattern or explicit confirmation in dialogue text (recorded pre-training)",
+  "preregistration": "SL measured 2026-07-24 BEFORE any reward-model training on MultiWOZ. Original-rule prediction: if SL<0.10 -> lift<0.02. Corrected one-directional rule: low SL uninformative. CAVEAT registered: success proxy tokens (reference codes) appear IN dialogue text -> state may contain label evidence, like P4G."
+}

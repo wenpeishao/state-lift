@@ -1,0 +1,249 @@
+{
+  "calibration_data": [
+    {
+      "domain": "Math (MATH)",
+      "SDI": 79.5,
+      "prm_gap": 5.8,
+      "metric": "accuracy",
+      "source": "Lightman 2023",
+      "benchmark": "MATH-500"
+    },
+    {
+      "domain": "Math (AP Calculus)",
+      "SDI": 79.5,
+      "prm_gap": 17.8,
+      "metric": "accuracy",
+      "source": "Lightman 2023",
+      "benchmark": "AP Calculus"
+    },
+    {
+      "domain": "Math (MATH, MS)",
+      "SDI": 79.5,
+      "prm_gap": 4.1,
+      "metric": "accuracy",
+      "source": "Math-Shepherd 2024",
+      "benchmark": "MATH"
+    },
+    {
+      "domain": "Math (GSM8K, MS)",
+      "SDI": 79.5,
+      "prm_gap": 1.4,
+      "metric": "accuracy",
+      "source": "Math-Shepherd 2024",
+      "benchmark": "GSM8K"
+    },
+    {
+      "domain": "Math (MATH, PAV)",
+      "SDI": 79.5,
+      "prm_gap": 8.0,
+      "metric": "accuracy",
+      "source": "Setlur 2025 (PAV)",
+      "benchmark": "MATH"
+    },
+    {
+      "domain": "Web Agent (WebShop)",
+      "SDI": 13.1,
+      "prm_gap": 19.0,
+      "metric": "success rate",
+      "source": "AgentPRM 2024",
+      "benchmark": "WebShop"
+    },
+    {
+      "domain": "Grid Agent (BabyAI)",
+      "SDI": 13.1,
+      "prm_gap": 6.1,
+      "metric": "success rate",
+      "source": "AgentPRM 2024",
+      "benchmark": "BabyAI"
+    },
+    {
+      "domain": "Crafting Agent (TextCraft)",
+      "SDI": 13.1,
+      "prm_gap": 13.4,
+      "metric": "success rate",
+      "source": "AgentPRM 2024",
+      "benchmark": "TextCraft"
+    },
+    {
+      "domain": "Code (LiveCodeBench)",
+      "SDI": 10.6,
+      "prm_gap": 1.5,
+      "metric": "pass@1",
+      "source": "DreamPRM-Code 2024",
+      "benchmark": "LiveCodeBench"
+    },
+    {
+      "domain": "Code (LCB Medium)",
+      "SDI": 10.6,
+      "prm_gap": 2.6,
+      "metric": "pass@1",
+      "source": "DreamPRM-Code 2024",
+      "benchmark": "LiveCodeBench-Med"
+    },
+    {
+      "domain": "Emotional Support (ESConv)",
+      "SDI": 3.8,
+      "prm_gap": 24.0,
+      "metric": "AUC lift",
+      "source": "Our E1-E2",
+      "benchmark": "ESConv"
+    },
+    {
+      "domain": "Task Dialogue (MultiWOZ)",
+      "SDI": 3.8,
+      "prm_gap": 10.4,
+      "metric": "combined score",
+      "source": "Du et al. 2024",
+      "benchmark": "MultiWOZ 2.0"
+    },
+    {
+      "domain": "General (MMLU-Pro)",
+      "SDI": 1.4,
+      "prm_gap": 0.0,
+      "metric": "accuracy",
+      "source": "Lee et al. 2025",
+      "benchmark": "MMLU-Pro (14 domains)"
+    },
+    {
+      "domain": "Chat QA",
+      "SDI": 1.0,
+      "prm_gap": 0.0,
+      "metric": "preference",
+      "source": "Our E1 (HH-RLHF)",
+      "benchmark": "HH-RLHF"
+    },
+    {
+      "domain": "Code Gen (single-turn)",
+      "SDI": 1.0,
+      "prm_gap": 0.0,
+      "metric": "pass@k",
+      "source": "Standard practice",
+      "benchmark": "HumanEval/MBPP"
+    }
+  ],
+  "correlation": {
+    "unique_levels": {
+      "n": 6,
+      "spearman_rho": 0.5797710356524484,
+      "spearman_p": 0.22778395671501608,
+      "pearson_r": 0.29194165098171015,
+      "pearson_p": 0.5745286064125106,
+      "regression_R2": 0.08522992757792669
+    },
+    "all_points": {
+      "n": 15,
+      "spearman_rho": 0.37290227903414025,
+      "spearman_p": 0.17101800634944403,
+      "pearson_r": 0.1866569588915752,
+      "pearson_p": 0.5053498830967792,
+      "regression_R2": 0.03484082030265134,
+      "regression_a": 0.8809869548905804,
+      "regression_b": 5.41448896208586,
+      "bootstrap_95ci": [
+        -0.26921194954751576,
+        0.8107578840909536
+      ]
+    }
+  },
+  "final_table": [
+    {
+      "domain": "Math Reasoning",
+      "SDI": 79.5,
+      "SDI_source": "our T6e",
+      "lit_prm_gap": "1.4-17.8%",
+      "lit_source": "Lightman 2023, Math-Shepherd, Setlur 2025",
+      "our_rank_adv": 0.284,
+      "verdict": "PROCESS ESSENTIAL"
+    },
+    {
+      "domain": "Tutoring (MathDial)",
+      "SDI": "114-198",
+      "SDI_source": "our T6 (non-std)",
+      "lit_prm_gap": "Expected HIGH",
+      "lit_source": "no published comparison",
+      "our_rank_adv": null,
+      "verdict": "PROCESS ESSENTIAL (predicted)"
+    },
+    {
+      "domain": "Web/Agent Navigation",
+      "SDI": 13.1,
+      "SDI_source": "our T6e",
+      "lit_prm_gap": "6.1-19.0%",
+      "lit_source": "AgentPRM 2024",
+      "our_rank_adv": 0.32,
+      "verdict": "PROCESS ESSENTIAL"
+    },
+    {
+      "domain": "Code Reasoning",
+      "SDI": 10.6,
+      "SDI_source": "our T6e",
+      "lit_prm_gap": "1.5-2.6%",
+      "lit_source": "DreamPRM-Code 2024",
+      "our_rank_adv": 0.262,
+      "verdict": "PROCESS HELPS"
+    },
+    {
+      "domain": "Emotional Support",
+      "SDI": 3.8,
+      "SDI_source": "our T6e",
+      "lit_prm_gap": "+24% AUC",
+      "lit_source": "our E1-E2",
+      "our_rank_adv": 0.207,
+      "verdict": "MIXED/PROCESS"
+    },
+    {
+      "domain": "Task-Oriented Dialogue",
+      "SDI": "~3-5",
+      "SDI_source": "estimated",
+      "lit_prm_gap": "+5-10 combined",
+      "lit_source": "Du et al. 2024",
+      "our_rank_adv": null,
+      "verdict": "MIXED/PROCESS"
+    },
+    {
+      "domain": "Tool-Use",
+      "SDI": 1.9,
+      "SDI_source": "our T6e",
+      "lit_prm_gap": "no published",
+      "lit_source": "--",
+      "our_rank_adv": 0.154,
+      "verdict": "OUTCOME (SDI-predicted)"
+    },
+    {
+      "domain": "Negotiation",
+      "SDI": 1.9,
+      "SDI_source": "our T6e",
+      "lit_prm_gap": "no published",
+      "lit_source": "--",
+      "our_rank_adv": 0.148,
+      "verdict": "OUTCOME (SDI-predicted)"
+    },
+    {
+      "domain": "Factual QA",
+      "SDI": 1.4,
+      "SDI_source": "our T6e",
+      "lit_prm_gap": "0%",
+      "lit_source": "Lee et al. 2025",
+      "our_rank_adv": 0.037,
+      "verdict": "OUTCOME"
+    },
+    {
+      "domain": "Code Gen (single-turn)",
+      "SDI": 1.0,
+      "SDI_source": "our T6e",
+      "lit_prm_gap": "0%",
+      "lit_source": "standard practice",
+      "our_rank_adv": -0.019,
+      "verdict": "OUTCOME"
+    },
+    {
+      "domain": "Chat QA",
+      "SDI": 1.0,
+      "SDI_source": "our T6e",
+      "lit_prm_gap": "0%",
+      "lit_source": "our E1",
+      "our_rank_adv": null,
+      "verdict": "OUTCOME"
+    }
+  ]
+}

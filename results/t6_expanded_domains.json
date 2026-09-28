@@ -1,0 +1,208 @@
+{
+  "results": {
+    "Math Reasoning (GSM8K)": {
+      "name": "Math-Reasoning",
+      "n_transitions": 4569,
+      "r2_outcome_reward": 0.001479172706604004,
+      "r2_process_reward": 0.11753513813018798,
+      "SDI": 79.46005061169225,
+      "state_conditioning_lift": 0.1158372163772583,
+      "interaction_strength": 0.02009721994400024,
+      "r2_dynamics": 0.5241838693618774,
+      "spectral_radius": 0.4123225510120392,
+      "state_persistence": 0.4396620080117216,
+      "r2_state_only": 0.07217965126037598,
+      "r2_action_only": 0.0016979217529296876,
+      "domain_type": "reasoning",
+      "genuinely_sequential": true,
+      "literature_prm_advantage": "LARGE (Lightman et al. 2023: PRM >> ORM on MATH)"
+    },
+    "Tutoring (MathDial)": {
+      "name": "Tutoring-MathDial",
+      "n_transitions": 148,
+      "r2_outcome_reward": 0.001,
+      "r2_process_reward": 0.19812361001968384,
+      "SDI": 198.12361001968384,
+      "state_conditioning_lift": 0.19812363386154175,
+      "interaction_strength": 0.005392408370971685,
+      "r2_dynamics": 0.469843327999115,
+      "spectral_radius": 0.4740656316280365,
+      "state_persistence": 0.2718529684957808,
+      "r2_state_only": 0.13784924745559693,
+      "r2_action_only": -0.16610465049743653,
+      "domain_type": "tutoring",
+      "genuinely_sequential": true,
+      "literature_prm_advantage": "EXPECTED HIGH (tutor must track student misconceptions)"
+    },
+    "Web Navigation (Mind2Web)": {
+      "name": "WebNav-Mind2Web",
+      "n_transitions": 6729,
+      "r2_outcome_reward": 0.021121013164520263,
+      "r2_process_reward": 0.9620303034782409,
+      "SDI": 45.54849220463957,
+      "state_conditioning_lift": 0.9432905077934265,
+      "interaction_strength": 0.002926385402679421,
+      "r2_dynamics": 0.8785660266876221,
+      "spectral_radius": 0.218588724732399,
+      "state_persistence": 0.5350969153307875,
+      "r2_state_only": 0.932075047492981,
+      "r2_action_only": 0.018739795684814452,
+      "domain_type": "web-agent",
+      "genuinely_sequential": true,
+      "literature_prm_advantage": "EXPECTED HIGH (page state determines valid actions)"
+    },
+    "Code Reasoning (CodeContests)": {
+      "name": "Code-CodeContests",
+      "n_transitions": 5500,
+      "r2_outcome_reward": 0.014834904670715332,
+      "r2_process_reward": 0.15736157894134523,
+      "SDI": 10.6075220862041,
+      "state_conditioning_lift": 0.14324018955230713,
+      "interaction_strength": 0.03530662059783937,
+      "r2_dynamics": 0.309886634349823,
+      "spectral_radius": 0.2712886333465576,
+      "state_persistence": 0.46589480615806955,
+      "r2_state_only": 0.0764306902885437,
+      "r2_action_only": 0.014121389389038086,
+      "domain_type": "code-reasoning",
+      "genuinely_sequential": true,
+      "literature_prm_advantage": "EXPECTED MODERATE (partial code constrains completion)"
+    },
+    "Counseling (CounselChat)": {
+      "name": "Counseling-CC",
+      "n_transitions": 2582,
+      "r2_outcome_reward": 0.014660143852233886,
+      "r2_process_reward": 0.030222177505493164,
+      "SDI": 2.0615198466069597,
+      "state_conditioning_lift": 0.028577530384063722,
+      "interaction_strength": 0.028915703296661377,
+      "r2_dynamics": 0.6621017456054688,
+      "spectral_radius": 0.8990181088447571,
+      "state_persistence": 0.837145104971303,
+      "r2_state_only": 0.003685927391052246,
+      "r2_action_only": 0.0016446590423583984,
+      "domain_type": "counseling",
+      "genuinely_sequential": true
+    },
+    "ESConv (emotional support)": {
+      "SDI": 3.6729530570331357,
+      "domain_type": "dialogue-therapeutic",
+      "genuinely_sequential": true,
+      "source": "T5 (prior run)",
+      "TSR": 3.6729530570331357,
+      "expected_prm_advantage": "HIGH"
+    },
+    "HH-RLHF (factual QA chat)": {
+      "SDI": 0.9927103624438808,
+      "domain_type": "dialogue-factual",
+      "genuinely_sequential": false,
+      "source": "T5 (prior run)",
+      "TSR": 0.9927103624438808,
+      "expected_prm_advantage": "LOW"
+    },
+    "Math Reasoning": {
+      "SDI": 79.46005061169225,
+      "domain_type": "reasoning",
+      "genuinely_sequential": true,
+      "source": "T5 (prior run)",
+      "name": "Math-Reasoning",
+      "n_transitions": 4569,
+      "r2_utterance": 0.001479172706604004,
+      "r2_state": 0.07217965126037598,
+      "r2_action": 0.0016979217529296876,
+      "r2_transition": 0.11753513813018798,
+      "TSR": 79.46005061169225,
+      "state_lift": 0.1158372163772583,
+      "r2_wm": 0.5241838693618774,
+      "rho": 0.4123225510120392,
+      "autocorrelation": 0.4396620080117216,
+      "expected_prm_advantage": "HIGH (known)"
+    },
+    "Factual QA (Alpaca)": {
+      "SDI": 1.3955983832698169,
+      "domain_type": "single-turn-qa",
+      "genuinely_sequential": false,
+      "source": "T5 (prior run)",
+      "name": "Factual-QA",
+      "n_transitions": 2821,
+      "r2_utterance": 0.11815855503082276,
+      "r2_state": 0.05224531888961792,
+      "r2_action": 0.03088589906692505,
+      "r2_transition": 0.16490188837051392,
+      "TSR": 1.3955983832698169,
+      "state_lift": 0.1340159773826599,
+      "r2_wm": -0.006460666656494141,
+      "rho": 0.18573252856731415,
+      "autocorrelation": 0.06831755750022549,
+      "expected_prm_advantage": "LOW"
+    },
+    "Code Generation": {
+      "SDI": 1.031168015785098,
+      "domain_type": "single-turn-code",
+      "genuinely_sequential": false,
+      "source": "T5 (prior run)",
+      "name": "Code-Gen",
+      "n_transitions": 2992,
+      "r2_utterance": 0.37279160022735597,
+      "r2_state": 0.13961577415466309,
+      "r2_action": 0.10624185800552369,
+      "r2_transition": 0.38441077470779417,
+      "TSR": 1.031168015785098,
+      "state_lift": 0.2781689286231994,
+      "r2_wm": -0.009820818901062012,
+      "rho": 0.16172751784324646,
+      "autocorrelation": -0.002694846551745717,
+      "expected_prm_advantage": "LOW-MED"
+    }
+  },
+  "literature_benchmarks": {
+    "Math (MATH/GSM8K)": {
+      "SDI": 79.5,
+      "prm_advantage": "LARGE",
+      "prm_advantage_magnitude": 0.15,
+      "source": "Lightman et al. (2023) \"Let's Verify Step by Step\"",
+      "notes": "PRM + best-of-N: 78.2% vs ORM 72.4% on MATH500"
+    },
+    "Emotional Support (ESConv)": {
+      "SDI": 3.7,
+      "prm_advantage": "MODERATE",
+      "prm_advantage_magnitude": 0.1,
+      "source": "Our E1-E2 experiments",
+      "notes": "State-conditioned reward AUC=0.80 vs blind=0.56 (lift=0.24 in AUC)"
+    },
+    "Chat/QA (HH-RLHF)": {
+      "SDI": 1.0,
+      "prm_advantage": "NONE",
+      "prm_advantage_magnitude": 0.0,
+      "source": "Our E1: state lift = -0.0004",
+      "notes": "State provides zero additional information for preference prediction"
+    },
+    "Code (single-turn)": {
+      "SDI": 1.0,
+      "prm_advantage": "NONE",
+      "prm_advantage_magnitude": 0.0,
+      "source": "Standard practice: code evaluation is output-based",
+      "notes": "HumanEval, MBPP use execution-based (outcome) evaluation"
+    },
+    "Factual QA (Alpaca)": {
+      "SDI": 1.4,
+      "prm_advantage": "NEGLIGIBLE",
+      "prm_advantage_magnitude": 0.02,
+      "source": "Standard practice: instruction following uses ORM",
+      "notes": "RLHF for chat is outcome-reward based"
+    }
+  },
+  "methodology": {
+    "metric": "Sequential Dependence Index (SDI)",
+    "formula": "SDI = R2(state + action + interaction) / R2(action-only features)",
+    "target": "improvement = ||z_t - z_mean|| - ||z_{t+1} - z_mean||",
+    "embedding": "all-MiniLM-L6-v2 (384d)",
+    "pca": "D=16",
+    "model": "Ridge(alpha=1.0), 5-fold CV"
+  },
+  "design_rule": {
+    "SDI > 10": "Process rewards essential (PRM, MCTS, step-level RL)",
+    "SDI 2-10": "State-conditioned rewards help; hybrid approaches",
+    "SDI < 1.5": "Outcome rewards sufficient (standard RLHF/DPO)"
+  }
+}

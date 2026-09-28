@@ -1,0 +1,106 @@
+{
+  "sweep": [
+    {
+      "state_lift": 0.0,
+      "regret": 0.0,
+      "sqrt_sl_var": 0.0,
+      "ratio": null
+    },
+    {
+      "state_lift": 0.01,
+      "regret": 0.0,
+      "sqrt_sl_var": 0.06366534194044993,
+      "ratio": 0.0
+    },
+    {
+      "state_lift": 0.05,
+      "regret": 1.3129105704846244e-06,
+      "sqrt_sl_var": 0.1453261849617225,
+      "ratio": 9.03423268718182e-06
+    },
+    {
+      "state_lift": 0.1,
+      "regret": 0.00016347831409200785,
+      "sqrt_sl_var": 0.2111540513661496,
+      "ratio": 0.0007742134855301918
+    },
+    {
+      "state_lift": 0.2,
+      "regret": 0.005590245690261815,
+      "sqrt_sl_var": 0.3167310770492244,
+      "ratio": 0.017649817448740637
+    },
+    {
+      "state_lift": 0.29999999999999993,
+      "regret": 0.024751909300407233,
+      "sqrt_sl_var": 0.4146983244351317,
+      "ratio": 0.05968654282392452
+    },
+    {
+      "state_lift": 0.5,
+      "regret": 0.1222132691127396,
+      "sqrt_sl_var": 0.6334621540984487,
+      "ratio": 0.1929290776442281
+    },
+    {
+      "state_lift": 0.7000000000000001,
+      "regret": 0.37356660327105734,
+      "sqrt_sl_var": 0.9676294236819741,
+      "ratio": 0.3860637079943071
+    },
+    {
+      "state_lift": 0.9,
+      "regret": 1.3125401492748952,
+      "sqrt_sl_var": 1.9003864622953464,
+      "ratio": 0.6906701217443783
+    },
+    {
+      "state_lift": 0.95,
+      "regret": 2.269029475013332,
+      "sqrt_sl_var": 2.7611975142727263,
+      "ratio": 0.8217555836859332
+    },
+    {
+      "state_lift": 0.99,
+      "regret": 6.3490554866246045,
+      "sqrt_sl_var": 6.30286885210454,
+      "ratio": 1.0073278749096362
+    }
+  ],
+  "theorem": {
+    "statement": "E[regret] in [state_lift*Var(R)/(2*range(R)), sqrt(state_lift*Var(R))*sqrt(2 ln K)]",
+    "key_insight": "state_lift bounds both the existence and magnitude of PRM advantage over ORM"
+  },
+  "domain_predictions": {
+    "Math": {
+      "state_lift": 0.449,
+      "sqrt_sl": 0.67,
+      "regime": "HIGH regret from ORM"
+    },
+    "Tool-Use": {
+      "state_lift": 0.398,
+      "sqrt_sl": 0.631,
+      "regime": "HIGH regret from ORM"
+    },
+    "Negotiation": {
+      "state_lift": 0.22,
+      "sqrt_sl": 0.469,
+      "regime": "MODERATE regret"
+    },
+    "ESConv": {
+      "state_lift": 0.029,
+      "sqrt_sl": 0.17,
+      "regime": "LOW regret"
+    },
+    "Code": {
+      "state_lift": 0.007,
+      "sqrt_sl": 0.084,
+      "regime": "MINIMAL regret"
+    },
+    "HH-RLHF": {
+      "state_lift": -0.005,
+      "sqrt_sl": 0.0,
+      "regime": "ZERO regret"
+    }
+  }
+}

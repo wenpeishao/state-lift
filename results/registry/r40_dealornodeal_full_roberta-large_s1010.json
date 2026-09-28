@@ -1,0 +1,19 @@
+{
+  "domain": "dealornodeal_full",
+  "pt": "e5_dealornodeal_data.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": false,
+  "SL": -0.016162265926105458,
+  "SL_sd": 0.08186657051449839,
+  "per_fold": [
+    0.10791031516356309,
+    0.014972079321109888,
+    -0.03348880597014914,
+    -0.10298372282773738,
+    -0.06722119531731374
+  ],
+  "n": 10662,
+  "seed": 1010,
+  "threshold": 0.1
+}

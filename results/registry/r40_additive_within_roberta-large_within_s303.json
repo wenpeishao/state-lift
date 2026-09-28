@@ -1,0 +1,19 @@
+{
+  "domain": "additive_within",
+  "pt": "e18_additive_within.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": true,
+  "SL": 0.01942273124520718,
+  "SL_sd": 0.06826629751756082,
+  "per_fold": [
+    -0.08547059763502718,
+    0.009395598345053158,
+    0.08902293105537412,
+    0.013213806278397244,
+    0.07095191818223856
+  ],
+  "n": 6000,
+  "seed": 303,
+  "threshold": 0.1
+}

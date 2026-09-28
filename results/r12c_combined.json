@@ -1,0 +1,72 @@
+{
+  "baselines": {
+    "PRM800K (r2, chosen)": {
+      "sl": 0.015,
+      "ci": [
+        -0.01,
+        0.017
+      ],
+      "source": "Original r2"
+    },
+    "PRM800K (r9, nonlinear)": {
+      "sl": 0.018,
+      "ci": null,
+      "source": "MLP extension"
+    }
+  },
+  "datasets": {
+    "MathShepherd-proper": {
+      "dataset": "MathShepherd-proper",
+      "n_samples": 1100,
+      "r2_action": 0.30863065954455615,
+      "r2_state": 0.014135232926592578,
+      "r2_state_action": 0.30714743344747075,
+      "r2_outcome": 0.30838473873507255,
+      "r2_process": 0.3071474283483584,
+      "state_lift": -0.0014832260970853994,
+      "sdi": 0.995987770368309,
+      "bootstrap_ci": [
+        -0.0036423308052886717,
+        0.03404734512546035
+      ],
+      "context_correctness_sl": 0.3405371367030817,
+      "ratio_real_vs_cc": -0.004355548741160179,
+      "binary_analysis": {
+        "auc_action": 0.819151019219569,
+        "auc_state_action": 0.816612158526777,
+        "state_lift_auc": -0.0025388606927919666,
+        "n_positive": 596,
+        "n_negative": 504
+      }
+    },
+    "MathShepherd-MATH": {
+      "dataset": "MathShepherd-MATH",
+      "n_samples": 1100,
+      "r2_action": 0.3087795042377464,
+      "r2_state": 0.013955293670663282,
+      "r2_state_action": 0.30720345185295805,
+      "r2_outcome": 0.3086123588168409,
+      "r2_process": 0.30720345313927605,
+      "state_lift": -0.0015760523847883623,
+      "sdi": 0.9954347075309417,
+      "bootstrap_ci": [
+        -0.0032104606171518006,
+        0.034414094017151155
+      ],
+      "context_correctness_sl": 0.3405371367030817,
+      "ratio_real_vs_cc": -0.004628136596339978,
+      "binary_analysis": {
+        "auc_action": 0.8191510982610867,
+        "auc_state_action": 0.8164957553318356,
+        "state_lift_auc": -0.00265534292925107,
+        "n_positive": 596,
+        "n_negative": 504
+      }
+    },
+    "PRM800K-AllComp": {
+      "status": "error",
+      "error": "Couldn't cast array of type int64 to null"
+    }
+  },
+  "timestamp": "2026-05-05 06:58:27"
+}

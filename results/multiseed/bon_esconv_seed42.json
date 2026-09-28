@@ -1,0 +1,15 @@
+{
+  "blind": {
+    "top1": 0.21,
+    "n_ctx": 400,
+    "n_cand": 8
+  },
+  "state_conditioned": {
+    "top1": 0.2325,
+    "n_ctx": 400,
+    "n_cand": 8
+  },
+  "delta_top1": 0.02250000000000002,
+  "seed": 42,
+  "note": "retrieval-BoN; conditioned distractors carry their own contexts (own-state pairing data limitation) - deltas interpret WITH this caveat"
+}

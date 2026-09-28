@@ -1,0 +1,7 @@
+{
+  "domain": "craigslist_ldisjoint",
+  "seed": 42,
+  "blind_acc": 0.5679414157851912,
+  "cond_acc": 0.646053702196908,
+  "lift": 0.07811228641171686
+}

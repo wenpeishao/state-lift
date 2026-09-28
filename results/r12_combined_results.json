@@ -1,0 +1,129 @@
+{
+  "prm800k_baseline": {
+    "dataset": "PRM800K (baseline)",
+    "state_lift": 0.015,
+    "context_correctness_sl": 0.539,
+    "ratio_real_vs_cc": 0.028,
+    "bootstrap_ci": [
+      -0.01,
+      0.017
+    ]
+  },
+  "datasets": {
+    "MathShepherd": {
+      "dataset": "MathShepherd",
+      "n_samples": 20000,
+      "r2_action": 0.0447740813234079,
+      "r2_state": 0.08835769248176721,
+      "r2_state_action": 0.0996926031848514,
+      "r2_outcome": 0.04474717286344818,
+      "r2_process": 0.09969260405306342,
+      "state_lift": 0.054918521861443505,
+      "sdi": 2.227908439205497,
+      "bootstrap_ci": [
+        0.02977326537007875,
+        0.07255579234578242
+      ],
+      "context_correctness_sl": 0.324087707316516,
+      "ratio_real_vs_cc": 0.16945573874484557,
+      "binary_analysis": {
+        "auc_action": 0.6215621216866385,
+        "auc_state_action": 0.6797415008867013,
+        "state_lift_auc": 0.058179379200062775,
+        "n_positive": 9938,
+        "n_negative": 10062
+      }
+    },
+    "ProcessBench": {
+      "status": "skipped",
+      "reason": "insufficient data"
+    },
+    "Shepherd-PRM": {
+      "status": "skipped",
+      "reason": "insufficient data"
+    },
+    "RewardBench": {
+      "dataset": "RewardBench",
+      "n_samples": 20000,
+      "r2_action": 0.01661987655385817,
+      "r2_state": 0.013221876951916945,
+      "r2_state_action": 0.025117935419999092,
+      "r2_outcome": 0.01795032715845335,
+      "r2_process": 0.025117935045943597,
+      "state_lift": 0.008498058866140922,
+      "sdi": 1.3993023538913498,
+      "bootstrap_ci": [
+        -0.014117445039162286,
+        0.012656049742681577
+      ],
+      "context_correctness_sl": 0.4109885509626734,
+      "ratio_real_vs_cc": 0.020677118246324892,
+      "binary_analysis": {
+        "auc_action": 0.5644607351180552,
+        "auc_state_action": 0.5687563655580394,
+        "state_lift_auc": 0.004295630439984266,
+        "n_positive": 9398,
+        "n_negative": 10602
+      }
+    },
+    "MATH-500": {
+      "status": "skipped",
+      "reason": "insufficient data"
+    },
+    "OrcaMath": {
+      "dataset": "OrcaMath",
+      "n_samples": 20000,
+      "r2_action": -0.000310822882803663,
+      "r2_state": 0.04835150049208729,
+      "r2_state_action": 0.29291042788693245,
+      "r2_outcome": -0.00031674332006348394,
+      "r2_process": 0.29291042071533463,
+      "state_lift": 0.29291042788693245,
+      "sdi": 292.9104207153346,
+      "bootstrap_ci": [
+        0.12691356495666753,
+        0.2556970798489367
+      ],
+      "context_correctness_sl": 0.44124743109162645,
+      "ratio_real_vs_cc": 0.6638235313059729,
+      "binary_analysis": {
+        "auc_action": 0.5187537158286467,
+        "auc_state_action": 0.8380767649769766,
+        "state_lift_auc": 0.3193230491483299,
+        "n_positive": 19062,
+        "n_negative": 938
+      }
+    },
+    "InterCode": {
+      "status": "skipped",
+      "reason": "insufficient data"
+    }
+  },
+  "literature_gaps": {
+    "PRM800K": {
+      "gap": 0.474,
+      "source": "Lightman et al. 2023, Wang et al. 2024"
+    },
+    "MathShepherd": {
+      "gap": 0.35,
+      "source": "Wang et al. 2024 (estimated)"
+    },
+    "ProcessBench": {
+      "gap": 0.4,
+      "source": "DeepSeek 2024 (estimated)"
+    },
+    "RewardBench": {
+      "gap": 0.15,
+      "source": "Lambert et al. 2024"
+    },
+    "MATH": {
+      "gap": 0.474,
+      "source": "Same domain as PRM800K"
+    },
+    "Code": {
+      "gap": 0.026,
+      "source": "T6e CodeContests"
+    }
+  },
+  "timestamp": "2026-05-05 06:45:00"
+}

@@ -1,0 +1,14 @@
+{
+  "A (P4G)": {
+    "grouped_by_response_constraints_SEEN": 0.19483217032269384,
+    "grouped_by_constraint_UNSEEN": -0.13141008208397265
+  },
+  "B (ESConv)": {
+    "grouped_by_response_constraints_SEEN": 0.3424237808986167,
+    "grouped_by_constraint_UNSEEN": -0.1959220302487635
+  },
+  "C (HH)": {
+    "grouped_by_response_constraints_SEEN": 0.3670267651458412,
+    "grouped_by_constraint_UNSEEN": 0.23833692140669271
+  }
+}

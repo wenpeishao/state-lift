@@ -1,0 +1,19 @@
+{
+  "domain": "additive_pooled",
+  "pt": "e18_additive_pooled.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": false,
+  "SL": 0.06045339396293624,
+  "SL_sd": 0.08174346025104808,
+  "per_fold": [
+    -0.04155462464998433,
+    0.06270863734278365,
+    0.14847474778363723,
+    0.13151373381376907,
+    0.0011244755244755877
+  ],
+  "n": 6000,
+  "seed": 42,
+  "threshold": 0.1
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "domain": "DealOrNoDeal",
+    "n_triples": 28200,
+    "n_convs": 6370,
+    "sl": 0.1797,
+    "eff_gap": 2.14,
+    "ci_95": [
+      0.1728,
+      0.189
+    ],
+    "r2_action": 0.0276,
+    "r2_state_action": 0.2073,
+    "sdi": 7.054,
+    "r2_process": 0.2088,
+    "r2_outcome": 0.0296,
+    "shuffle_drop_pct": 100.3
+  },
+  {
+    "domain": "PersuasionForGood",
+    "n_triples": 18898,
+    "n_convs": 1017,
+    "sl": 0.1115,
+    "eff_gap": 2.82,
+    "ci_95": [
+      0.1052,
+      0.1218
+    ],
+    "r2_action": 0.0671,
+    "r2_state_action": 0.1786,
+    "sdi": 2.926,
+    "r2_process": 0.1965,
+    "r2_outcome": 0.0671,
+    "shuffle_drop_pct": 101.0
+  },
+  {
+    "domain": "CaSiNo-verify",
+    "n_triples": 9859,
+    "n_convs": 1030,
+    "sl": 0.1625,
+    "eff_gap": 2.27,
+    "ci_95": [
+      0.1514,
+      0.178
+    ],
+    "r2_action": 0.0907,
+    "r2_state_action": 0.2532,
+    "sdi": 2.875,
+    "r2_process": 0.2643,
+    "r2_outcome": 0.0919,
+    "shuffle_drop_pct": 101.1
+  }
+]

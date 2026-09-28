@@ -1,0 +1,34 @@
+{
+  "Tool-Use (glaive_v2)": {
+    "name": "ToolUse-glaive_v2",
+    "n_transitions": 30407,
+    "r2_outcome_reward": 0.08506098985671998,
+    "r2_process_reward": 0.3108537197113037,
+    "SDI": 3.6544803938317405,
+    "state_conditioning_lift": 0.22604652643203738,
+    "r2_dynamics": 0.47246766090393066,
+    "state_persistence": 0.48170621551231063,
+    "domain_type": "tool-use",
+    "genuinely_sequential": true
+  },
+  "MathDial_artifact": {
+    "real_SDI": 113.56204748153687,
+    "shuffled_SDI": 3.587758819530083,
+    "cross_SDI": 295.5939292907715,
+    "drop_pct": 96.840706116968,
+    "verdict": "PASS"
+  },
+  "Mind2Web_artifact": {
+    "real_SDI": 13.062345655267915,
+    "shuffled_SDI": 7.57194943624609,
+    "cross_SDI": 219.90541219711304,
+    "drop_pct": 42.03223803687665,
+    "verdict": "CONCERN"
+  },
+  "CodeContests_artifact": {
+    "real_SDI": 10.6075220862041,
+    "shuffled_SDI": 2.2675694444961345,
+    "drop_pct": 78.62300520264498,
+    "verdict": "PASS"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "domain": "arithmetic",
+  "seed": 42,
+  "blind_curve": [
+    {
+      "opt_step": 10,
+      "epoch": 0,
+      "eval_acc": 0.4583333333333333
+    },
+    {
+      "opt_step": 10,
+      "epoch": 1,
+      "eval_acc": 0.49
+    },
+    {
+      "opt_step": 10,
+      "epoch": 2,
+      "eval_acc": 0.5233333333333333
+    }
+  ],
+  "cond_curve": [
+    {
+      "opt_step": 10,
+      "epoch": 0,
+      "eval_acc": 0.5766666666666667
+    },
+    {
+      "opt_step": 10,
+      "epoch": 1,
+      "eval_acc": 0.615
+    },
+    {
+      "opt_step": 10,
+      "epoch": 2,
+      "eval_acc": 0.6383333333333333
+    }
+  ],
+  "blind_acc": 0.5283333333333333,
+  "cond_acc": 0.6616666666666666,
+  "lift": 0.1333333333333333
+}

@@ -1,0 +1,9 @@
+{
+  "domain": "multiwoz_precode",
+  "seed": 45,
+  "blind_curve": [],
+  "cond_curve": [],
+  "blind_acc": 0.7046666666666667,
+  "cond_acc": 0.7453333333333333,
+  "lift": 0.04066666666666663
+}

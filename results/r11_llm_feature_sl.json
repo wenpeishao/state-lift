@@ -1,0 +1,23 @@
+{
+  "n_samples": 20000,
+  "n_chains": 9395,
+  "llm_model": "Llama-3.1-8B-Instruct",
+  "llm_hidden_dim": 4096,
+  "pca_dim": 16,
+  "pca_variance_explained": 0.624772310256958,
+  "llm_features": {
+    "r2_action": 0.04115461100423821,
+    "r2_state_action": 0.062220903680495335,
+    "sl_r2": 0.021066292676257127,
+    "auc_action": 0.7617840980964308,
+    "auc_state_action": 0.8073214266704802,
+    "sl_auc": 0.04553732857404946
+  },
+  "miniml_baseline": {
+    "sl_r2": 0.015,
+    "sl_auc": 0.071
+  },
+  "resolution_ratio_r2": 1.4044195117504752,
+  "resolution_ratio_auc": 0.6413708249866122,
+  "resolution_confirmed": false
+}

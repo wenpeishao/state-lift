@@ -1,0 +1,17 @@
+{
+  "domain": "hh_f3",
+  "pt": "e4_hh_data.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": true,
+  "SL": -0.039700252517885316,
+  "SL_sd": 0.007674058424048453,
+  "per_fold": [
+    -0.04735682819383258,
+    -0.03200883002207505,
+    -0.039735099337748325
+  ],
+  "n": 6000,
+  "seed": 404,
+  "threshold": 0.1
+}

@@ -1,0 +1,22 @@
+{
+  "small_permutation_SL": [
+    -0.03648612519601232,
+    -0.05770405222843803,
+    0.03398709543957503
+  ],
+  "small_permutation_mean": -0.02006769399495844,
+  "small_permutation_sd": 0.04799989898423901,
+  "small_observed_SL_r34b": 0.0188,
+  "large_model": "roberta-base",
+  "large_observed_SL": 0.03298078866357257,
+  "large_folds": [
+    0.019841357221499267,
+    0.024216605415135373,
+    0.05488440335408307
+  ],
+  "reference": {
+    "bi_encoder_SL": -0.001,
+    "small_crossenc_SL": 0.0188,
+    "full_RM_training_lift": 0.088
+  }
+}

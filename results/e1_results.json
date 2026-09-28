@@ -1,0 +1,76 @@
+{
+  "n_examples": 110521,
+  "n_total_hh_rlhf": 160800,
+  "pca_variance_explained": 0.24527601897716522,
+  "T1_preference_prediction": {
+    "action_only_auc": 0.5528193826923886,
+    "state_only_auc": 0.4974275865759359,
+    "state_action_auc": 0.5524449718223043,
+    "state_lift": -0.0003744108700842741
+  },
+  "T2_reward_model": {
+    "state_blind_acc": 0.5360519881626393,
+    "state_conditioned_acc": 0.5367034424995761,
+    "lift": 0.0006514543369368075,
+    "permutation_p": 0.0
+  },
+  "T3_opposite_sign": {
+    "PC0": {
+      "high_state_mean_pref": 0.004101286176592112,
+      "low_state_mean_pref": -6.29216228844598e-05,
+      "t_stat": 5.436456737652443,
+      "p_value": 5.446519092715638e-08,
+      "cohens_d": 0.032705970108509064,
+      "n_high": 55260,
+      "n_low": 55261,
+      "opposite_sign": true
+    },
+    "PC1": {
+      "high_state_mean_pref": 0.0028029747772961855,
+      "low_state_mean_pref": 0.0026108287274837494,
+      "t_stat": 0.27814495750208035,
+      "p_value": 0.780901606029025,
+      "cohens_d": 0.0016733353259041905,
+      "n_high": 55260,
+      "n_low": 55261,
+      "opposite_sign": false
+    },
+    "PC2": {
+      "high_state_mean_pref": 0.007941857911646366,
+      "low_state_mean_pref": 0.004336589016020298,
+      "t_stat": 4.136819526419445,
+      "p_value": 3.524129510328981e-05,
+      "cohens_d": 0.0248873308300972,
+      "n_high": 55260,
+      "n_low": 55261,
+      "opposite_sign": false
+    },
+    "PC3": {
+      "high_state_mean_pref": -0.0026731924153864384,
+      "low_state_mean_pref": -0.0056415037252008915,
+      "t_stat": 4.343041148082655,
+      "p_value": 1.406487042077222e-05,
+      "cohens_d": 0.026127951219677925,
+      "n_high": 55260,
+      "n_low": 55261,
+      "opposite_sign": false
+    },
+    "PC4": {
+      "high_state_mean_pref": -0.004961212165653706,
+      "low_state_mean_pref": -0.004277374595403671,
+      "t_stat": -1.0117173365722762,
+      "p_value": 0.31167543877186543,
+      "cohens_d": -0.006086543668061495,
+      "n_high": 55260,
+      "n_low": 55261,
+      "opposite_sign": false
+    }
+  },
+  "T1_similar_subset": {
+    "n": 27630,
+    "action_only_auc": 0.5161889118053515,
+    "state_only_auc": 0.5000822857530528,
+    "state_action_auc": 0.5142468752271314,
+    "state_lift": -0.0019420365782201188
+  }
+}

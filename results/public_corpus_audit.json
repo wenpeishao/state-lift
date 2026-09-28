@@ -1,0 +1,79 @@
+[
+  {
+    "n_pairs": 59860,
+    "n_states": 29691,
+    "n_actions": 58501,
+    "mean_actions_per_state": 2.016099154625981,
+    "pct_states_multi_action": 1.0,
+    "mean_states_per_action": 1.023230372130391,
+    "pct_actions_reused": 0.007504145228286696,
+    "dataset": "Anthropic/hh-rlhf",
+    "prompt_field": null,
+    "response_fields": [
+      "chosen",
+      "rejected"
+    ],
+    "C2_interaction_identifiable": false
+  },
+  {
+    "n_pairs": 32000,
+    "n_states": 8000,
+    "n_actions": 30637,
+    "mean_actions_per_state": 3.829625,
+    "pct_states_multi_action": 0.998625,
+    "mean_states_per_action": 1.0,
+    "pct_actions_reused": 0.0,
+    "dataset": "openbmb/UltraFeedback",
+    "prompt_field": "instruction",
+    "response_fields": [
+      "completions"
+    ],
+    "C2_interaction_identifiable": false
+  },
+  {
+    "n_pairs": 16000,
+    "n_states": 277,
+    "n_actions": 3921,
+    "mean_actions_per_state": 14.15884476534296,
+    "pct_states_multi_action": 1.0,
+    "mean_states_per_action": 1.0002550369803622,
+    "pct_actions_reused": 0.0002550369803621525,
+    "dataset": "stanfordnlp/SHP",
+    "prompt_field": "history",
+    "response_fields": [
+      "human_ref_A",
+      "human_ref_B"
+    ],
+    "C2_interaction_identifiable": false
+  },
+  {
+    "n_pairs": 42000,
+    "n_states": 6000,
+    "n_actions": 41454,
+    "mean_actions_per_state": 6.997333333333334,
+    "pct_states_multi_action": 1.0,
+    "mean_states_per_action": 1.0127852559463502,
+    "pct_actions_reused": 0.003883823032759203,
+    "dataset": "berkeley-nest/Nectar",
+    "prompt_field": "prompt",
+    "response_fields": [
+      "answers"
+    ],
+    "C2_interaction_identifiable": false
+  },
+  {
+    "n_pairs": 6000,
+    "n_states": 1685,
+    "n_actions": 5567,
+    "mean_actions_per_state": 3.366765578635015,
+    "pct_states_multi_action": 0.9068249258160237,
+    "mean_states_per_action": 1.019040776001437,
+    "pct_actions_reused": 0.005927788755164361,
+    "dataset": "nvidia/HelpSteer",
+    "prompt_field": "prompt",
+    "response_fields": [
+      "response"
+    ],
+    "C2_interaction_identifiable": false
+  }
+]

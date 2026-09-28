@@ -1,0 +1,19 @@
+{
+  "domain": "salient_pooled",
+  "pt": "e19_salient_pooled.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": true,
+  "SL": 0.05326216320368843,
+  "SL_sd": 0.019405011955919038,
+  "per_fold": [
+    0.03820312107983359,
+    0.06653380299097761,
+    0.03789127837514927,
+    0.08081285487902357,
+    0.042869758693458104
+  ],
+  "n": 6000,
+  "seed": 42,
+  "threshold": 0.1
+}

@@ -1,0 +1,20 @@
+# data (rebuild with scripts/data/, see README)
+data/*.pt
+data/PRM800K/
+data/*.csv
+data/*.txt
+*.npz
+
+# large / regenerable artefacts
+results/multiseed/adapters/
+logs/
+figures/out/*.png
+figures/out/*.pdf
+figures/out/*.svg
+
+# python / os
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db

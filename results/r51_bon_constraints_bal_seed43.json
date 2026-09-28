@@ -1,0 +1,60 @@
+{
+  "domain": "constraints_bal",
+  "seed": 43,
+  "n_trials": 600,
+  "n_states": 9,
+  "results": {
+    "blind": {
+      "2": {
+        "top1": 0.6783333333333333,
+        "se": 0.01908583643152312,
+        "chance": 0.5
+      },
+      "4": {
+        "top1": 0.44666666666666666,
+        "se": 0.020312892833979454,
+        "chance": 0.25
+      },
+      "8": {
+        "top1": 0.29333333333333333,
+        "se": 0.018602640813162003,
+        "chance": 0.125
+      },
+      "16": {
+        "top1": 0.22,
+        "se": 0.016925645111409954,
+        "chance": 0.0625
+      }
+    },
+    "conditioned": {
+      "2": {
+        "top1": 0.99,
+        "se": 0.004065408455475261,
+        "chance": 0.5
+      },
+      "4": {
+        "top1": 0.9766666666666667,
+        "se": 0.006168053958167541,
+        "chance": 0.25
+      },
+      "8": {
+        "top1": 0.9433333333333334,
+        "se": 0.009446762839168331,
+        "chance": 0.125
+      },
+      "16": {
+        "top1": 0.8816666666666667,
+        "se": 0.013197520607152681,
+        "chance": 0.0625
+      }
+    }
+  },
+  "lifts": {
+    "2": 0.31166666666666665,
+    "4": 0.53,
+    "8": 0.65,
+    "16": 0.6616666666666667
+  },
+  "metric": "within-state best-of-N top-1 selection accuracy, judge-free",
+  "note": "state is held fixed across candidates, so a pure level effect m(s) cannot win; this is the decision a reward model is deployed to make"
+}

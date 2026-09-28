@@ -1,0 +1,9 @@
+{
+  "domain": "constraints",
+  "seed": 45,
+  "blind_curve": [],
+  "cond_curve": [],
+  "blind_acc": 0.6261585993820803,
+  "cond_acc": 0.995880535530381,
+  "lift": 0.36972193614830073
+}

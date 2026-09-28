@@ -1,0 +1,21 @@
+{
+  "domain": "P4G",
+  "cross_encoder_state_action_auc": 0.5649239286032214,
+  "cross_encoder_action_only_auc": 0.5461185430011998,
+  "cross_encoder_SL": 0.018805385602021607,
+  "bi_encoder_SL_grouped_reference": -0.001,
+  "full_RM_training_lift_reference": 0.088,
+  "folds": {
+    "state_action": [
+      0.5640786708037233,
+      0.5857546438660967,
+      0.5449384711398442
+    ],
+    "action_only": [
+      0.5542968671804624,
+      0.5448961224030601,
+      0.5391626394200766
+    ]
+  },
+  "interpretation": "cross_encoder_SL >> 0 (approaching the +0.088 training lift) => a cheap cross-attention probe recovers what bi-encoders miss; LIVE positive claim. cross_encoder_SL ~= 0 => signal is training-only even for cross-attention."
+}

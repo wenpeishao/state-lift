@@ -1,0 +1,7 @@
+{
+  "domain": "esconv",
+  "seed": 46,
+  "blind_acc": 0.558,
+  "cond_acc": 0.5728,
+  "lift": 0.014799999999999924
+}

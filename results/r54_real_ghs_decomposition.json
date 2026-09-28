@@ -1,0 +1,74 @@
+[
+  {
+    "file": "e16_constraints_balanced.pt",
+    "n_cells": 8722,
+    "n_states": 10,
+    "n_actions": 3848,
+    "mean_obs_per_action": 2.2666320166320166,
+    "var_total": 0.24999967136951787,
+    "share_m": 0.0019350124343906901,
+    "share_h": 0.4453752770233746,
+    "share_g": 0.5565200045034265,
+    "additive_r2": 0.44347999549657346
+  },
+  {
+    "file": "e12_constraints_data.pt",
+    "n_cells": 9713,
+    "n_states": 10,
+    "n_actions": 3878,
+    "mean_obs_per_action": 2.5046415678184633,
+    "var_total": 0.24999923417229428,
+    "share_m": 0.21223287790109788,
+    "share_h": 0.3073239427642394,
+    "share_g": 0.4815599314546425,
+    "additive_r2": 0.5184400685453575
+  },
+  {
+    "file": "e13_constraints_v2_data.pt",
+    "n_cells": 10624,
+    "n_states": 10,
+    "n_actions": 2798,
+    "mean_obs_per_action": 3.796997855611151,
+    "var_total": 0.25,
+    "share_m": 0.45421563561360695,
+    "share_h": 0.13793151020278965,
+    "share_g": 0.41417801305901447,
+    "additive_r2": 0.5858219869409855
+  },
+  {
+    "file": "e15_constraints_v3_data.pt",
+    "n_cells": 12984,
+    "n_states": 10,
+    "n_actions": 3991,
+    "mean_obs_per_action": 3.2533199699323476,
+    "var_total": 0.25,
+    "share_m": 0.510405427102755,
+    "share_h": 0.14175421463027826,
+    "share_g": 0.34199229426065203,
+    "additive_r2": 0.658007705739348
+  },
+  {
+    "file": "e19_salient_pooled.pt",
+    "n_cells": 9944,
+    "n_states": 1200,
+    "n_actions": 900,
+    "mean_obs_per_action": 11.04888888888889,
+    "var_total": 0.24999983819283406,
+    "share_m": 0.3482287538044569,
+    "share_h": 0.1374617878931261,
+    "share_g": 0.5391449212444055,
+    "additive_r2": 0.4608550787555945
+  },
+  {
+    "file": "e18_additive_pooled.pt",
+    "n_cells": 9944,
+    "n_states": 1200,
+    "n_actions": 900,
+    "mean_obs_per_action": 11.04888888888889,
+    "var_total": 0.24999983819283406,
+    "share_m": 0.3121894601696411,
+    "share_h": 0.16063176822956038,
+    "share_g": 0.5471370466700127,
+    "additive_r2": 0.4528629533299873
+  }
+]

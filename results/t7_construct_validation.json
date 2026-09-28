@@ -1,0 +1,21 @@
+{
+  "ESConv": {
+    "n": 12633,
+    "SDI_proxy": 3.6729530570331357,
+    "SDI_turnprogress": 1.430876975723695,
+    "SDI_wm_quality": 2.0697558444901127
+  },
+  "HH-RLHF": {
+    "n_transitions": 3552,
+    "n_preference_pairs": 3547,
+    "SDI_proxy": 17.216229475370447,
+    "SDI_preference": 0.990086440499415,
+    "auc_outcome": 0.6156354505569115,
+    "auc_process": 0.6095323118871461
+  },
+  "Math": {
+    "n": 4569,
+    "SDI_proxy": 79.46005061169225,
+    "SDI_wm_quality": 1.7785276867345179
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "paper": {
+    "Math (GSM8K)": {
+      "sl": 0.584,
+      "eg": 1.11,
+      "label": "ctx-correct",
+      "regime": "PRM essential"
+    },
+    "Tool-use (Glaive)": {
+      "sl": 0.398,
+      "eg": 1.23,
+      "label": "ctx-correct",
+      "regime": "PRM essential"
+    },
+    "Negotiation (CaSiNo)": {
+      "sl": 0.22,
+      "eg": 1.88,
+      "label": "genuine",
+      "regime": "PRM moderate"
+    },
+    "ESConv": {
+      "sl": 0.028,
+      "eg": 5.79,
+      "label": "proxy",
+      "regime": "ORM sufficient"
+    },
+    "Code": {
+      "sl": 0.003,
+      "eg": 11.91,
+      "label": "ctx-correct",
+      "regime": "ORM sufficient"
+    },
+    "HH-RLHF": {
+      "sl": -0.003,
+      "eg": 999,
+      "label": "genuine",
+      "regime": "ORM sufficient"
+    }
+  },
+  "new": {
+    "USS-Satisfaction": {
+      "status": "error",
+      "error": "An error occurred while generating the dataset"
+    },
+    "AirDialogue": {
+      "dataset": "AirDialogue",
+      "n": 15000,
+      "label_type": "genuine",
+      "r2_action": 0.00033335355688550726,
+      "r2_state": 0.0028354318453742257,
+      "r2_sa": 0.004315122886035594,
+      "r2_outcome": 0.00029789129194275344,
+      "r2_process": 0.004315119597678052,
+      "state_lift": 0.003981769329150087,
+      "sdi": 4.315119597678052,
+      "eff_gap": 15.815961361503776,
+      "ci": [
+        -0.026810689508619995,
+        0.004251188100775584
+      ],
+      "sl_cc": 0.08471878994022142,
+      "ratio": 0.04699983713128659,
+      "regime": "ORM sufficient"
+    },
+    "ProsocialDialog": {
+      "dataset": "ProsocialDialog",
+      "n": 15000,
+      "label_type": "genuine",
+      "r2_action": 0.19917716293644855,
+      "r2_state": 0.12832490188766574,
+      "r2_sa": 0.22227669784495743,
+      "r2_outcome": 0.1992830658658333,
+      "r2_process": 0.22227669847724033,
+      "state_lift": 0.023099534908508884,
+      "sdi": 1.1153817686992402,
+      "eff_gap": 6.5031465385610385,
+      "ci": [
+        0.005482557356634521,
+        0.030434293075618547
+      ],
+      "sl_cc": 0.3926531066857646,
+      "ratio": 0.058829370034744574,
+      "regime": "ORM sufficient",
+      "auc": {
+        "auc_a": 0.7609627885916105,
+        "auc_sa": 0.7745523512690271,
+        "sl_auc": 0.013589562677416622
+      }
+    }
+  },
+  "ts": "2026-05-05 09:59:29"
+}

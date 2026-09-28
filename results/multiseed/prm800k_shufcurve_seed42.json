@@ -1,0 +1,221 @@
+{
+  "domain": "prm800k",
+  "seed": 42,
+  "blind_curve": [
+    {
+      "opt_step": 5,
+      "epoch": 0,
+      "eval_acc": 0.5371900826446281
+    },
+    {
+      "opt_step": 10,
+      "epoch": 0,
+      "eval_acc": 0.5619834710743802
+    },
+    {
+      "opt_step": 15,
+      "epoch": 0,
+      "eval_acc": 0.5661157024793388
+    },
+    {
+      "opt_step": 20,
+      "epoch": 0,
+      "eval_acc": 0.5619834710743802
+    },
+    {
+      "opt_step": 25,
+      "epoch": 0,
+      "eval_acc": 0.5702479338842975
+    },
+    {
+      "opt_step": 30,
+      "epoch": 0,
+      "eval_acc": 0.5950413223140496
+    },
+    {
+      "opt_step": 35,
+      "epoch": 0,
+      "eval_acc": 0.6198347107438017
+    },
+    {
+      "opt_step": 5,
+      "epoch": 1,
+      "eval_acc": 0.6198347107438017
+    },
+    {
+      "opt_step": 10,
+      "epoch": 1,
+      "eval_acc": 0.6157024793388429
+    },
+    {
+      "opt_step": 15,
+      "epoch": 1,
+      "eval_acc": 0.6115702479338843
+    },
+    {
+      "opt_step": 20,
+      "epoch": 1,
+      "eval_acc": 0.6528925619834711
+    },
+    {
+      "opt_step": 25,
+      "epoch": 1,
+      "eval_acc": 0.6487603305785123
+    },
+    {
+      "opt_step": 30,
+      "epoch": 1,
+      "eval_acc": 0.6611570247933884
+    },
+    {
+      "opt_step": 35,
+      "epoch": 1,
+      "eval_acc": 0.6528925619834711
+    },
+    {
+      "opt_step": 5,
+      "epoch": 2,
+      "eval_acc": 0.6611570247933884
+    },
+    {
+      "opt_step": 10,
+      "epoch": 2,
+      "eval_acc": 0.6570247933884298
+    },
+    {
+      "opt_step": 15,
+      "epoch": 2,
+      "eval_acc": 0.6611570247933884
+    },
+    {
+      "opt_step": 20,
+      "epoch": 2,
+      "eval_acc": 0.6652892561983471
+    },
+    {
+      "opt_step": 25,
+      "epoch": 2,
+      "eval_acc": 0.6694214876033058
+    },
+    {
+      "opt_step": 30,
+      "epoch": 2,
+      "eval_acc": 0.6446280991735537
+    },
+    {
+      "opt_step": 35,
+      "epoch": 2,
+      "eval_acc": 0.6735537190082644
+    }
+  ],
+  "cond_curve": [
+    {
+      "opt_step": 5,
+      "epoch": 0,
+      "eval_acc": 0.5165289256198347
+    },
+    {
+      "opt_step": 10,
+      "epoch": 0,
+      "eval_acc": 0.49173553719008267
+    },
+    {
+      "opt_step": 15,
+      "epoch": 0,
+      "eval_acc": 0.49173553719008267
+    },
+    {
+      "opt_step": 20,
+      "epoch": 0,
+      "eval_acc": 0.512396694214876
+    },
+    {
+      "opt_step": 25,
+      "epoch": 0,
+      "eval_acc": 0.5289256198347108
+    },
+    {
+      "opt_step": 30,
+      "epoch": 0,
+      "eval_acc": 0.5289256198347108
+    },
+    {
+      "opt_step": 35,
+      "epoch": 0,
+      "eval_acc": 0.5454545454545454
+    },
+    {
+      "opt_step": 5,
+      "epoch": 1,
+      "eval_acc": 0.5495867768595041
+    },
+    {
+      "opt_step": 10,
+      "epoch": 1,
+      "eval_acc": 0.5413223140495868
+    },
+    {
+      "opt_step": 15,
+      "epoch": 1,
+      "eval_acc": 0.5454545454545454
+    },
+    {
+      "opt_step": 20,
+      "epoch": 1,
+      "eval_acc": 0.5661157024793388
+    },
+    {
+      "opt_step": 25,
+      "epoch": 1,
+      "eval_acc": 0.5867768595041323
+    },
+    {
+      "opt_step": 30,
+      "epoch": 1,
+      "eval_acc": 0.6198347107438017
+    },
+    {
+      "opt_step": 35,
+      "epoch": 1,
+      "eval_acc": 0.5909090909090909
+    },
+    {
+      "opt_step": 5,
+      "epoch": 2,
+      "eval_acc": 0.6074380165289256
+    },
+    {
+      "opt_step": 10,
+      "epoch": 2,
+      "eval_acc": 0.5826446280991735
+    },
+    {
+      "opt_step": 15,
+      "epoch": 2,
+      "eval_acc": 0.6033057851239669
+    },
+    {
+      "opt_step": 20,
+      "epoch": 2,
+      "eval_acc": 0.5991735537190083
+    },
+    {
+      "opt_step": 25,
+      "epoch": 2,
+      "eval_acc": 0.5867768595041323
+    },
+    {
+      "opt_step": 30,
+      "epoch": 2,
+      "eval_acc": 0.6033057851239669
+    },
+    {
+      "opt_step": 35,
+      "epoch": 2,
+      "eval_acc": 0.5826446280991735
+    }
+  ],
+  "blind_acc": 0.6652892561983471,
+  "cond_acc": 0.6074380165289256,
+  "lift": -0.05785123966942152
+}

@@ -1,0 +1,19 @@
+{
+  "domain": "constraints",
+  "pt": "e12_constraints_data.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": false,
+  "SL": -0.051907218553720456,
+  "SL_sd": 0.219294311578855,
+  "per_fold": [
+    0.31217682049687034,
+    -0.06322883102080179,
+    -0.26692500317853407,
+    -0.07630947620951611,
+    -0.16524960285662066
+  ],
+  "n": 6000,
+  "seed": 1010,
+  "threshold": 0.1
+}

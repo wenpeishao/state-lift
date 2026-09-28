@@ -1,0 +1,17 @@
+{
+  "domain": "constraints_bal_f3",
+  "pt": "e16_constraints_balanced.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": true,
+  "SL": -0.1087142538998747,
+  "SL_sd": 0.09372947318825038,
+  "per_fold": [
+    -0.20612353104982234,
+    -0.019158805198411788,
+    -0.10086042545138996
+  ],
+  "n": 6000,
+  "seed": 202,
+  "threshold": 0.1
+}

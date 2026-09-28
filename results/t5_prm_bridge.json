@@ -1,0 +1,57 @@
+{
+  "ESConv (emotional support)": {
+    "TSR": 3.6729530570331357,
+    "domain_type": "dialogue-therapeutic",
+    "expected_prm_advantage": "HIGH"
+  },
+  "HH-RLHF (factual QA chat)": {
+    "TSR": 0.9927103624438808,
+    "domain_type": "dialogue-factual",
+    "expected_prm_advantage": "LOW"
+  },
+  "Math Reasoning": {
+    "name": "Math-Reasoning",
+    "n_transitions": 4569,
+    "r2_utterance": 0.001479172706604004,
+    "r2_state": 0.07217965126037598,
+    "r2_action": 0.0016979217529296876,
+    "r2_transition": 0.11753513813018798,
+    "TSR": 79.46005061169225,
+    "state_lift": 0.1158372163772583,
+    "r2_wm": 0.5241838693618774,
+    "rho": 0.4123225510120392,
+    "autocorrelation": 0.4396620080117216,
+    "domain_type": "reasoning",
+    "expected_prm_advantage": "HIGH (known)"
+  },
+  "Factual QA (Alpaca)": {
+    "name": "Factual-QA",
+    "n_transitions": 2821,
+    "r2_utterance": 0.11815855503082276,
+    "r2_state": 0.05224531888961792,
+    "r2_action": 0.03088589906692505,
+    "r2_transition": 0.16490188837051392,
+    "TSR": 1.3955983832698169,
+    "state_lift": 0.1340159773826599,
+    "r2_wm": -0.006460666656494141,
+    "rho": 0.18573252856731415,
+    "autocorrelation": 0.06831755750022549,
+    "domain_type": "single-turn-qa",
+    "expected_prm_advantage": "LOW"
+  },
+  "Code Generation": {
+    "name": "Code-Gen",
+    "n_transitions": 2992,
+    "r2_utterance": 0.37279160022735597,
+    "r2_state": 0.13961577415466309,
+    "r2_action": 0.10624185800552369,
+    "r2_transition": 0.38441077470779417,
+    "TSR": 1.031168015785098,
+    "state_lift": 0.2781689286231994,
+    "r2_wm": -0.009820818901062012,
+    "rho": 0.16172751784324646,
+    "autocorrelation": -0.002694846551745717,
+    "domain_type": "single-turn-code",
+    "expected_prm_advantage": "LOW-MED"
+  }
+}

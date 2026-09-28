@@ -1,0 +1,33 @@
+{
+  "prm800k_real_labels": {
+    "n_chains": 9395,
+    "n_steps": 78865,
+    "rating_distribution": {
+      "+1": 68847,
+      "0": 5426,
+      "-1": 4592
+    },
+    "r2_action": 0.024599793735293706,
+    "r2_state": 0.028348443052367146,
+    "r2_state_action": -0.005974246214497469,
+    "r2_outcome": 0.0245725577808239,
+    "r2_process": 0.03967864685574134,
+    "state_lift": 0.015078853012543861,
+    "sdi": 1.6147544431335523,
+    "bootstrap_ci": [
+      -0.010384966699017105,
+      0.016788862881779974
+    ]
+  },
+  "binary_analysis": {
+    "n": 73439,
+    "auc_action": 0.6623056662744577,
+    "auc_state_action": 0.7332289139499135,
+    "state_lift_auc": 0.07092324767545577
+  },
+  "context_correctness_comparison": {
+    "sl_context_correctness": 0.5390105251911332,
+    "sl_real_labels": 0.015078853012543861,
+    "ratio": 0.02797506228138476
+  }
+}

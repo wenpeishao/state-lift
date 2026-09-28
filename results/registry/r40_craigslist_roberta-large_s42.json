@@ -1,0 +1,18 @@
+{
+  "domain": "craigslist",
+  "pt": "e10b_craigslist_ldisjoint_data.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "SL": 0.09513750496334342,
+  "SL_sd": 0.13956497659227496,
+  "per_fold": [
+    -0.05152330620970724,
+    0.24818395878913901,
+    0.2183172153987626,
+    -0.03825307483844065,
+    0.09896273167696334
+  ],
+  "n": 6000,
+  "seed": 42,
+  "threshold": 0.1
+}

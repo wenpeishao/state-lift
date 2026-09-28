@@ -1,0 +1,11 @@
+{
+  "domain": "esconv",
+  "seed": 42,
+  "blind_curve": [],
+  "cond_curve": [],
+  "blind_acc": 0.5625,
+  "cond_acc": 0.5,
+  "lift": -0.0625,
+  "lr": 5e-05,
+  "epochs": 1
+}

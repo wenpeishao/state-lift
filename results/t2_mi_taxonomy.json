@@ -1,0 +1,44 @@
+{
+  "ESConv": {
+    "name": "ESConv",
+    "n_conversations": 910,
+    "n_transitions": 12633,
+    "world_model_r2": 0.1445816159248352,
+    "spectral_radius": 0.3061978816986084,
+    "MI": 0.04223770324919702,
+    "r2_action": 0.04243901968002319,
+    "r2_state": 0.11984127759933472,
+    "r2_state_action": 0.15638176202774048,
+    "actual_lift": 0.11394274234771729,
+    "autocorrelation": 0.22078283944534582,
+    "mixed_sign_frac": 0.7075757575757575
+  },
+  "HH-RLHF": {
+    "name": "HH-RLHF",
+    "n_conversations": 1304,
+    "n_transitions": 3552,
+    "world_model_r2": 0.22621899843215942,
+    "spectral_radius": 0.40378543734550476,
+    "MI": 0.08309566340063101,
+    "r2_action": 0.0016497254371643066,
+    "r2_state": 0.05497485399246216,
+    "r2_state_action": 0.07921273708343506,
+    "actual_lift": 0.07756301164627075,
+    "autocorrelation": 0.2647315056956893,
+    "mixed_sign_frac": 0.6861111111111111
+  },
+  "BlendedSkillTalk": {
+    "name": "BlendedSkillTalk",
+    "n_conversations": 2000,
+    "n_transitions": 9714,
+    "world_model_r2": 0.2302553653717041,
+    "spectral_radius": 0.255410373210907,
+    "MI": 0.02150659351709121,
+    "r2_action": 0.004362416267395019,
+    "r2_state": 0.05628392696380615,
+    "r2_state_action": 0.11282650232315064,
+    "actual_lift": 0.10846408605575562,
+    "autocorrelation": 0.2357044023110376,
+    "mixed_sign_frac": 0.6818181818181818
+  }
+}

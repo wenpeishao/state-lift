@@ -1,0 +1,83 @@
+{
+  "mind2web_diagnosis": {
+    "real": {
+      "name": "Mind2Web-REAL",
+      "n": 6729,
+      "SDI": 13.062345655267915,
+      "r2_outcome": 0.0154954195022583,
+      "r2_process": 0.20240652561187744,
+      "r2_state": 0.17284669876098632,
+      "r2_action": 0.015801239013671874,
+      "r2_additive": 0.19840739965438842,
+      "interaction": 0.003999125957489025
+    },
+    "shuffled_state": {
+      "name": "Mind2Web-SHUFFLED-Z",
+      "n": 6729,
+      "SDI": 7.57194943624609,
+      "r2_outcome": 0.032764089107513425,
+      "r2_process": 0.24808802604675292,
+      "r2_state": 0.21639996767044067,
+      "r2_action": 0.030297112464904786,
+      "r2_additive": 0.24886969327926636,
+      "interaction": -0.0007816672325134388
+    },
+    "shuffled_action": {
+      "name": "Mind2Web-SHUFFLED-A",
+      "n": 6729,
+      "SDI": 169.4413900375366,
+      "r2_outcome": 0.001,
+      "r2_process": 0.1694413900375366,
+      "r2_state": 0.1728474497795105,
+      "r2_action": -0.004546332359313965,
+      "r2_additive": 0.16978013515472412,
+      "interaction": -0.0003387451171875111
+    },
+    "within_chain_shuffle": {
+      "name": "Mind2Web-WITHIN-CHAIN-SHUFFLE",
+      "n": 6729,
+      "SDI": 18.994727601589144,
+      "r2_outcome": 0.008989763259887696,
+      "r2_process": 0.17075810432434083,
+      "r2_state": 0.14762382507324218,
+      "r2_action": 0.008585703372955323,
+      "r2_additive": 0.16785143613815307,
+      "interaction": 0.002906668186187761
+    },
+    "cross_chain_z": {
+      "name": "Mind2Web-CROSS-CHAIN-Z",
+      "n": 6729,
+      "SDI": 7.088833724841631,
+      "r2_outcome": 0.036746537685394286,
+      "r2_process": 0.26049009561538694,
+      "r2_state": 0.22629754543304442,
+      "r2_action": 0.03285485506057739,
+      "r2_additive": 0.2617669224739075,
+      "interaction": -0.0012768268585205411
+    },
+    "chain_regressed_SDI": 239.3232953324838,
+    "permutation_null_mean": 6.42388094569012,
+    "permutation_null_std": 0.5886458385280287,
+    "permutation_p": 0.0,
+    "action_autocorr_within": 0.23772791028022766,
+    "action_autocorr_cross": -0.0027310114819556475
+  },
+  "negotiation_results": {
+    "Negotiation (CaSiNo)": {
+      "name": "Negotiation-CaSiNo",
+      "n": 12237,
+      "SDI": 1.4563199721163067,
+      "r2_outcome": 0.2689634680747986,
+      "r2_process": 0.39169687032699585,
+      "r2_state": 0.17083497047424318,
+      "r2_action": 0.2660017728805542,
+      "r2_additive": 0.3765521287918091,
+      "interaction": 0.015144741535186745
+    },
+    "CaSiNo_artifact": {
+      "real_SDI": 1.4563199721163067,
+      "shuffled_SDI": 1.478144061558093,
+      "drop_pct": -1.4985779127969945
+    }
+  }
+}

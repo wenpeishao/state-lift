@@ -1,0 +1,42 @@
+{
+  "key_finding": "Lower bound is gap-dependent. Regret depends on state_lift/gap^2, not state_lift alone.",
+  "effective_gap_formula": "sqrt((1-state_lift)/state_lift)",
+  "regimes": {
+    "high_regret": "effective_gap < 1 (state noise dominates action gaps)",
+    "moderate": "effective_gap 1-3",
+    "low_regret": "effective_gap > 3 (action gaps dominate)",
+    "zero": "state_lift <= 0"
+  },
+  "domain_predictions": {
+    "Math": {
+      "state_lift": 0.449,
+      "effective_gap": 1.1077777268951112,
+      "literature": "1.4-17.8%"
+    },
+    "Tool-Use": {
+      "state_lift": 0.398,
+      "effective_gap": 1.2298629249108828,
+      "literature": "Expected HIGH"
+    },
+    "Negotiation": {
+      "state_lift": 0.22,
+      "effective_gap": 1.8829377433825436,
+      "literature": "Unknown"
+    },
+    "ESConv": {
+      "state_lift": 0.029,
+      "effective_gap": 5.786428831385525,
+      "literature": "Moderate"
+    },
+    "Code": {
+      "state_lift": 0.007,
+      "effective_gap": 11.910379626911263,
+      "literature": "1.5-2.6%"
+    },
+    "HH-RLHF": {
+      "state_lift": -0.005,
+      "effective_gap": Infinity,
+      "literature": "0%"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Math": {
+    "name": "Math",
+    "n": 9138,
+    "state_lift": 0.5838329911231994,
+    "utt_trans_correlation": 0.0028471287805587053,
+    "utt_trans_p": 0.7855270744178074,
+    "utt_label_correlation": 8.620870180914286e-10,
+    "trans_label_correlation": 0.011854128840816528,
+    "r2_action_quality": -0.005108499526977539,
+    "r2_process_quality": 0.5838330030441284,
+    "llm_prm_gap": 0.474
+  },
+  "ESConv": {
+    "name": "ESConv",
+    "n": 12633,
+    "state_lift": 0.02795850038528444,
+    "utt_trans_correlation": -0.07332468777894974,
+    "utt_trans_p": 1.5610532063572273e-16,
+    "utt_label_correlation": -0.009378351271152496,
+    "trans_label_correlation": -0.03184405341744423,
+    "r2_action_quality": 0.1320200204849243,
+    "r2_process_quality": 0.16000652313232422,
+    "llm_prm_gap": 0.017
+  },
+  "HH-RLHF": {
+    "name": "HH-RLHF",
+    "n": 7094,
+    "state_lift": -0.003058528900146483,
+    "utt_trans_correlation": 0.5745987296104431,
+    "utt_trans_p": 0.0,
+    "utt_label_correlation": 0.00936769995323212,
+    "trans_label_correlation": -0.024478771393493238,
+    "r2_action_quality": 0.01113126277923584,
+    "r2_process_quality": 0.00811305046081543,
+    "llm_prm_gap": 0.034
+  },
+  "Code": {
+    "name": "Code",
+    "n": 9362,
+    "state_lift": 0.0026605367660522457,
+    "utt_trans_correlation": 0.0598989762365818,
+    "utt_trans_p": 6.627352164372153e-09,
+    "utt_label_correlation": 0.008103381769189984,
+    "trans_label_correlation": 0.007161644651927044,
+    "r2_action_quality": 0.012027561664581299,
+    "r2_process_quality": 0.014410173892974854,
+    "llm_prm_gap": 0.02
+  }
+}

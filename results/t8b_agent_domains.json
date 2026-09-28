@@ -1,0 +1,44 @@
+{
+  "Web Navigation": {
+    "name": "WebNav-ActionCorrectness",
+    "n": 15476,
+    "task": "classification",
+    "auc_action": 0.48712171462791504,
+    "auc_state": 0.47071869077524575,
+    "auc_state_action": 0.48427350082828113,
+    "auc_outcome": 0.4864285621337647,
+    "auc_process": 0.48427350082828113,
+    "state_lift": -0.002848213799633903,
+    "SDI_real": 0.9666137741083456,
+    "quality_signal": "correct action in context vs wrong action",
+    "literature_prm_gap": "6.1-19.0% (AgentPRM 2024)"
+  },
+  "Tool-Use": {
+    "name": "ToolUse-ContextCorrectness",
+    "n": 20002,
+    "task": "classification",
+    "auc_action": 0.46419917412543726,
+    "auc_state": 0.5727170355072465,
+    "auc_state_action": 0.86201725009995,
+    "auc_outcome": 0.46436137557471263,
+    "auc_process": 0.86201725009995,
+    "state_lift": 0.39781807597451274,
+    "SDI_real": 1.7205933135727545,
+    "quality_signal": "action in correct context vs wrong context",
+    "literature_prm_gap": "Expected MODERATE (AgentPRM: agent domains benefit)"
+  },
+  "Negotiation": {
+    "name": "Negotiation-ContextCorrectness",
+    "n": 24474,
+    "task": "classification",
+    "auc_action": 0.47589128870063624,
+    "auc_state": 0.5608488903319954,
+    "auc_state_action": 0.6956416253779001,
+    "auc_outcome": 0.4738867278381356,
+    "auc_process": 0.6956416253779001,
+    "state_lift": 0.21975033667726385,
+    "SDI_real": 1.3885062382792417,
+    "quality_signal": "utterance in correct context vs wrong context",
+    "literature_prm_gap": "NOVEL PREDICTION: Expected LOW"
+  }
+}

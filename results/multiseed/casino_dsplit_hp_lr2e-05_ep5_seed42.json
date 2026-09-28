@@ -1,0 +1,11 @@
+{
+  "domain": "casino_dsplit",
+  "seed": 42,
+  "blind_curve": [],
+  "cond_curve": [],
+  "blind_acc": 0.5161725067385444,
+  "cond_acc": 0.5363881401617251,
+  "lift": 0.020215633423180668,
+  "lr": 2e-05,
+  "epochs": 5
+}

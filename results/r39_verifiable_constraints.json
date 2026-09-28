@@ -1,0 +1,52 @@
+{
+  "domain": "verifiable-constraint following (RLVR setting)",
+  "state": "a verifiable constraint stated in text",
+  "action": "a real utterance from a natural corpus",
+  "label": "deterministic verifier: does the response satisfy the constraint",
+  "why_not_context_correctness": "label is program verification of a stated rule, not 'is this the true continuation' retrieval; the same response appears under constraints it satisfies and violates, so action-only is near chance by construction",
+  "n": 12000,
+  "observed": {
+    "r2_action": 0.016379032844189644,
+    "r2_state_action": 0.19465140319548468,
+    "SL_r2": 0.17827237035129503,
+    "auc_action": 0.5851310276381954,
+    "auc_state_action": 0.777667841110951,
+    "SL_auc": 0.19253681347275564
+  },
+  "permutation": [
+    {
+      "r2_action": 0.016379031881691476,
+      "r2_state_action": 0.027831350080526084,
+      "SL_r2": 0.011452318198834608,
+      "auc_action": 0.585137109405388,
+      "auc_state_action": 0.6064353716840787,
+      "SL_auc": 0.021298262278690694
+    },
+    {
+      "r2_action": 0.01637903206896447,
+      "r2_state_action": 0.02455762443271168,
+      "SL_r2": 0.008178592363747208,
+      "auc_action": 0.5851369213456643,
+      "auc_state_action": 0.600621250427956,
+      "SL_auc": 0.015484329082291692
+    },
+    {
+      "r2_action": 0.01637903152130431,
+      "r2_state_action": 0.028459634686746883,
+      "SL_r2": 0.012080603165442572,
+      "auc_action": 0.5851400115208744,
+      "auc_state_action": 0.6070081384788946,
+      "SL_auc": 0.021868126958020206
+    }
+  ],
+  "perm_mean_SL_auc": 0.019550239439667532,
+  "reference_genuine_label_SL": {
+    "DoND": 0.057,
+    "ESConv": 0.028,
+    "CaSiNo": 0.0,
+    "HH": -0.003,
+    "P4G": -0.001
+  },
+  "threshold": 0.1,
+  "interpretation": "SL >> 0.10 with a ~0 permutation null => the high-SL regime is REAL and measurable for genuine (programmatically verified) labels; our ten dialogue-outcome domains simply do not sample it, so the positive direction is not vacuous -- it is untested in dialogue."
+}

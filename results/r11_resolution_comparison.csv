@@ -1,0 +1,6 @@
+Method,SL_R2,SL_AUC,Type
+Linear Ridge (MiniLM),0.015,0.071,Encode-separately
+Kernel Ridge (MiniLM),0.018,0.071,Encode-separately
+MLP (MiniLM),0.018,0.071,Encode-separately
+Linear Ridge (Llama-8B),0.021,0.046,Encode-separately
+LLM Training Lift,0.238,0.238,End-to-end

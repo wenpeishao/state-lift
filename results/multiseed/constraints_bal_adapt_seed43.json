@@ -1,0 +1,9 @@
+{
+  "domain": "constraints_bal",
+  "seed": 43,
+  "blind_curve": [],
+  "cond_curve": [],
+  "blind_acc": 0.6410564225690276,
+  "cond_acc": 0.9963985594237695,
+  "lift": 0.3553421368547419
+}

@@ -1,0 +1,14 @@
+{
+  "random": {
+    "r2_action": 0.1591937778140744,
+    "r2_state_action": 0.18341109215407256,
+    "sl": 0.02421731433999816
+  },
+  "grouped": {
+    "r2_action": 0.15826133584799343,
+    "r2_state_action": 0.17885087269554029,
+    "sl": 0.020589536847546858
+  },
+  "n": 12000,
+  "note": "decontaminated SL paired with e11d lift +0.0442"
+}

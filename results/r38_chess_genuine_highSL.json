@@ -1,0 +1,50 @@
+{
+  "domain": "chess-puzzles (Lichess)",
+  "label": "engine-verified best move vs alternative legal move in the SAME position",
+  "why_not_context_correctness": "distractors are legal moves in the same position, so retrieval/matching cannot solve it",
+  "n": 7790,
+  "observed": {
+    "r2_action": 0.1228685819431224,
+    "r2_state_action": 0.12516348802417399,
+    "SL_r2": 0.0022949060810515814,
+    "auc_action": 0.6730192917090309,
+    "auc_state_action": 0.6768609899462957,
+    "SL_auc": 0.003841698237264879
+  },
+  "permutation": [
+    {
+      "r2_action": -0.003513365021677517,
+      "r2_state_action": -0.003647598069175517,
+      "SL_r2": -0.00013423304749799999,
+      "auc_action": 0.4967994911352397,
+      "auc_state_action": 0.49619158890055226,
+      "SL_auc": -0.0006079022346874297
+    },
+    {
+      "r2_action": -0.004826730833246895,
+      "r2_state_action": -0.004977454485486676,
+      "SL_r2": -0.00015072365223978146,
+      "auc_action": 0.474951923156148,
+      "auc_state_action": 0.4747952099479106,
+      "SL_auc": -0.0001567132082374023
+    },
+    {
+      "r2_action": -0.005333872172505782,
+      "r2_state_action": -0.005387324490359724,
+      "SL_r2": -5.345231785394179e-05,
+      "auc_action": 0.49008438783800046,
+      "auc_state_action": 0.4897233377441538,
+      "SL_auc": -0.0003610500938466821
+    }
+  ],
+  "perm_mean_SL_auc": -0.0003752218455905047,
+  "reference_genuine_label_SL": {
+    "DoND": 0.057,
+    "ESConv": 0.028,
+    "CaSiNo": 0.0,
+    "HH": -0.003,
+    "P4G": -0.001
+  },
+  "threshold": 0.1,
+  "interpretation": "SL_auc >> 0.10 with a near-zero permutation null => the high-SL regime EXISTS for genuine labels and our ten domains simply did not sample it; the positive direction is not vacuous. SL ~= 0 => the regime may be genuinely empty."
+}

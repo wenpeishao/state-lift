@@ -1,0 +1,19 @@
+{
+  "domain": "multiwoz_precode_full",
+  "pt": "e11d_multiwoz_precode_data.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": false,
+  "SL": 0.1461189326167529,
+  "SL_sd": 0.17740997249356746,
+  "per_fold": [
+    0.03823016518442479,
+    -0.10428648967635434,
+    0.20931173801594805,
+    0.24884447816011912,
+    0.33849477139962697
+  ],
+  "n": 13000,
+  "seed": 404,
+  "threshold": 0.1
+}

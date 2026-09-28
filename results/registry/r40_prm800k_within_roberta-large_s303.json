@@ -1,0 +1,19 @@
+{
+  "domain": "prm800k_within",
+  "pt": "e20_prm800k_within.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": false,
+  "SL": -0.0342529296875,
+  "SL_sd": 0.03888544008690474,
+  "per_fold": [
+    -0.008544921875,
+    -0.09912109375,
+    -0.02392578125,
+    -0.0379638671875,
+    -0.001708984375
+  ],
+  "n": 640,
+  "seed": 303,
+  "threshold": 0.1
+}

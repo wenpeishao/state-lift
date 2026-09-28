@@ -1,0 +1,7 @@
+{
+  "domain": "arithmetic",
+  "seed": 43,
+  "blind_acc": 0.6116666666666667,
+  "cond_acc": 0.8666666666666667,
+  "lift": 0.255
+}

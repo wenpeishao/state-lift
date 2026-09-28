@@ -1,0 +1,24 @@
+{
+  "dataset": "MathShepherd-proper",
+  "n_samples": 1100,
+  "r2_action": 0.30863065954455615,
+  "r2_state": 0.014135232926592578,
+  "r2_state_action": 0.30714743344747075,
+  "r2_outcome": 0.30838473873507255,
+  "r2_process": 0.3071474283483584,
+  "state_lift": -0.0014832260970853994,
+  "sdi": 0.995987770368309,
+  "bootstrap_ci": [
+    -0.0036423308052886717,
+    0.03404734512546035
+  ],
+  "context_correctness_sl": 0.3405371367030817,
+  "ratio_real_vs_cc": -0.004355548741160179,
+  "binary_analysis": {
+    "auc_action": 0.819151019219569,
+    "auc_state_action": 0.816612158526777,
+    "state_lift_auc": -0.0025388606927919666,
+    "n_positive": 596,
+    "n_negative": 504
+  }
+}

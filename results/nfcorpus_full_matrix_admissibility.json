@@ -1,0 +1,12 @@
+{
+  "dataset": "nfcorpus + retained pooled non-relevant judgments (depth 50)",
+  "n": 181822,
+  "n_queries": 2590,
+  "n_docs": 3588,
+  "ICC": 0.6367926320349306,
+  "pct_queries_varying": 1.0,
+  "pct_docs_reused": 1.0,
+  "C1": false,
+  "C2": true,
+  "admissible": false
+}

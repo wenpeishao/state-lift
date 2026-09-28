@@ -1,0 +1,27 @@
+{
+  "domain": "arithmetic",
+  "seed": 44,
+  "n_trials": 600,
+  "n_states": 591,
+  "results": {
+    "blind": {
+      "2": {
+        "top1": 0.65,
+        "se": 0.019488449556344486,
+        "chance": 0.5
+      }
+    },
+    "conditioned": {
+      "2": {
+        "top1": 0.9916666666666667,
+        "se": 0.003714315780554692,
+        "chance": 0.5
+      }
+    }
+  },
+  "lifts": {
+    "2": 0.3416666666666667
+  },
+  "metric": "within-state best-of-N top-1 selection accuracy, judge-free",
+  "note": "state is held fixed across candidates, so a pure level effect m(s) cannot win; this is the decision a reward model is deployed to make"
+}

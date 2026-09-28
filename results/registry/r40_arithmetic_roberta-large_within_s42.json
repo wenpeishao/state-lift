@@ -1,0 +1,19 @@
+{
+  "domain": "arithmetic",
+  "pt": "e14_arithmetic_data.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": true,
+  "SL": 0.005333333333333334,
+  "SL_sd": 0.04343977312197761,
+  "per_fold": [
+    -0.011666666666666659,
+    0.04749999999999999,
+    -0.03833333333333333,
+    0.055833333333333346,
+    -0.026666666666666672
+  ],
+  "n": 6000,
+  "seed": 42,
+  "threshold": 0.1
+}

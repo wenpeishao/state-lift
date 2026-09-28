@@ -1,0 +1,313 @@
+{
+  "rows": [
+    {
+      "domain": "arithmetic",
+      "n": 3,
+      "lift": 0.3433333333333333,
+      "lift_se": 0.04603742438977712,
+      "lift_ci_lo": 0.2530999815293702,
+      "sl": 0.003703888888888915,
+      "sl_source": "cross-encoder roberta-large (r40)"
+    },
+    {
+      "domain": "casino",
+      "n": 13,
+      "lift": 0.020883618427956753,
+      "lift_se": 0.007674589223333412,
+      "lift_ci_lo": 0.005841423550223265,
+      "sl": -0.0034665736469540716,
+      "sl_source": "cross-encoder roberta-large (r40)"
+    },
+    {
+      "domain": "constraints",
+      "n": 5,
+      "lift": 0.38784757981462414,
+      "lift_se": 0.006115358533183729,
+      "lift_ci_lo": 0.37586147708958406,
+      "sl": -0.09877424035531453,
+      "sl_source": "cross-encoder roberta-large (r40)"
+    },
+    {
+      "domain": "constraints_bal",
+      "n": 3,
+      "lift": 0.34453781512605036,
+      "lift_se": 0.007034172001299333,
+      "lift_ci_lo": 0.3307508380035037,
+      "sl": 0.038964741081618515,
+      "sl_source": "cross-encoder roberta-large (r40)"
+    },
+    {
+      "domain": "craigslist",
+      "n": 3,
+      "lift": 0.08860759493670885,
+      "lift_se": 0.018287698784373217,
+      "lift_ci_lo": 0.05276370531933734,
+      "sl": 0.033288559222341564,
+      "sl_source": "cross-encoder roberta-large (r40)"
+    },
+    {
+      "domain": "dealornodeal",
+      "n": 8,
+      "lift": 0.04276007497656982,
+      "lift_se": 0.004614997428222512,
+      "lift_ci_lo": 0.033714680017253695,
+      "sl": 0.057,
+      "sl_source": "MiniLM protocol (corrected Table 2)"
+    },
+    {
+      "domain": "esconv",
+      "n": 8,
+      "lift": 0.00845,
+      "lift_se": 0.003046719547316419,
+      "lift_ci_lo": 0.0024784296872598184,
+      "sl": -0.029366151511384754,
+      "sl_source": "cross-encoder roberta-large (r40)"
+    },
+    {
+      "domain": "hhrlhf",
+      "n": 8,
+      "lift": 0.030083333333333337,
+      "lift_se": 0.004250933604272893,
+      "lift_ci_lo": 0.021751503468958468,
+      "sl": -0.011056741506329964,
+      "sl_source": "cross-encoder roberta-large (r40)"
+    },
+    {
+      "domain": "multiwoz_precode",
+      "n": 5,
+      "lift": 0.041066666666666654,
+      "lift_se": 0.0023907228102721663,
+      "lift_ci_lo": 0.03638084995853321,
+      "sl": 0.02001248002310349,
+      "sl_source": "cross-encoder roberta-large (r40)"
+    },
+    {
+      "domain": "p4g",
+      "n": 3,
+      "lift": 0.08794788273615628,
+      "lift_se": 0.014198367894269303,
+      "lift_ci_lo": 0.060119081663388446,
+      "sl": 0.024245117423814844,
+      "sl_source": "cross-encoder roberta-large (r40)"
+    }
+  ],
+  "sweep": [
+    {
+      "tau": 0.0,
+      "delta": 0.02,
+      "tp": 6,
+      "fp": 0,
+      "fn": 2,
+      "tn": 2,
+      "precision": 1.0,
+      "recall": 0.75,
+      "false_ORM": [
+        "constraints",
+        "hhrlhf"
+      ],
+      "false_PRM": []
+    },
+    {
+      "tau": 0.05,
+      "delta": 0.02,
+      "tp": 1,
+      "fp": 0,
+      "fn": 7,
+      "tn": 2,
+      "precision": 1.0,
+      "recall": 0.125,
+      "false_ORM": [
+        "arithmetic",
+        "constraints",
+        "constraints_bal",
+        "craigslist",
+        "hhrlhf",
+        "multiwoz_precode",
+        "p4g"
+      ],
+      "false_PRM": []
+    },
+    {
+      "tau": 0.1,
+      "delta": 0.02,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "tn": 2,
+      "precision": NaN,
+      "recall": 0.0,
+      "false_ORM": [
+        "arithmetic",
+        "constraints",
+        "constraints_bal",
+        "craigslist",
+        "dealornodeal",
+        "hhrlhf",
+        "multiwoz_precode",
+        "p4g"
+      ],
+      "false_PRM": []
+    },
+    {
+      "tau": 0.15,
+      "delta": 0.02,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "tn": 2,
+      "precision": NaN,
+      "recall": 0.0,
+      "false_ORM": [
+        "arithmetic",
+        "constraints",
+        "constraints_bal",
+        "craigslist",
+        "dealornodeal",
+        "hhrlhf",
+        "multiwoz_precode",
+        "p4g"
+      ],
+      "false_PRM": []
+    },
+    {
+      "tau": 0.2,
+      "delta": 0.02,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "tn": 2,
+      "precision": NaN,
+      "recall": 0.0,
+      "false_ORM": [
+        "arithmetic",
+        "constraints",
+        "constraints_bal",
+        "craigslist",
+        "dealornodeal",
+        "hhrlhf",
+        "multiwoz_precode",
+        "p4g"
+      ],
+      "false_PRM": []
+    },
+    {
+      "tau": 0.0,
+      "delta": 0.05,
+      "tp": 4,
+      "fp": 2,
+      "fn": 1,
+      "tn": 3,
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "false_ORM": [
+        "constraints"
+      ],
+      "false_PRM": [
+        "dealornodeal",
+        "multiwoz_precode"
+      ]
+    },
+    {
+      "tau": 0.05,
+      "delta": 0.05,
+      "tp": 0,
+      "fp": 1,
+      "fn": 5,
+      "tn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "false_ORM": [
+        "arithmetic",
+        "constraints",
+        "constraints_bal",
+        "craigslist",
+        "p4g"
+      ],
+      "false_PRM": [
+        "dealornodeal"
+      ]
+    },
+    {
+      "tau": 0.1,
+      "delta": 0.05,
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "tn": 5,
+      "precision": NaN,
+      "recall": 0.0,
+      "false_ORM": [
+        "arithmetic",
+        "constraints",
+        "constraints_bal",
+        "craigslist",
+        "p4g"
+      ],
+      "false_PRM": []
+    },
+    {
+      "tau": 0.15,
+      "delta": 0.05,
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "tn": 5,
+      "precision": NaN,
+      "recall": 0.0,
+      "false_ORM": [
+        "arithmetic",
+        "constraints",
+        "constraints_bal",
+        "craigslist",
+        "p4g"
+      ],
+      "false_PRM": []
+    },
+    {
+      "tau": 0.2,
+      "delta": 0.05,
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "tn": 5,
+      "precision": NaN,
+      "recall": 0.0,
+      "false_ORM": [
+        "arithmetic",
+        "constraints",
+        "constraints_bal",
+        "craigslist",
+        "p4g"
+      ],
+      "false_PRM": []
+    }
+  ],
+  "one_sided_at_10": true,
+  "spearman": [
+    0.23636363636363633,
+    0.5108853175152002
+  ],
+  "pearson": [
+    -0.3398826724910804,
+    0.33660579923249123
+  ],
+  "hh_vs_dond": {
+    "paired_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "dond_mean": 0.04276007497656982,
+    "hh_mean": 0.030083333333333337,
+    "diff": 0.012676741643236483,
+    "t": 2.185392762895618,
+    "p": 0.06512018764002461,
+    "wilcoxon_p": 0.109375,
+    "ordering_matches_SL": true
+  }
+}

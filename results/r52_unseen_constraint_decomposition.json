@@ -1,0 +1,54 @@
+{
+  "A": {
+    "file": "e12_constraints_data.pt",
+    "n": 9760,
+    "n_constraints": 10,
+    "base_rate_min": 0.008344923504867872,
+    "base_rate_max": 0.7704122877930477,
+    "base_rate_sd": 0.23767178013336418,
+    "auc_state_only_UNSEEN": 0.49516240731685457,
+    "auc_action_only": 0.4911872783946275,
+    "auc_state_action": 0.4366217181853086,
+    "SL_unseen": -0.05456556020931891,
+    "level_effect_share": null
+  },
+  "B": {
+    "file": "e13_constraints_v2_data.pt",
+    "n": 10624,
+    "n_constraints": 10,
+    "base_rate_min": 0.0,
+    "base_rate_max": 1.0,
+    "base_rate_sd": 0.33631014313234053,
+    "auc_state_only_UNSEEN": 0.19644459511294085,
+    "auc_action_only": 0.4900787129373274,
+    "auc_state_action": 0.3005973742480751,
+    "SL_unseen": -0.18948133868925232,
+    "level_effect_share": null
+  },
+  "C": {
+    "file": "e15_constraints_v3_data.pt",
+    "n": 12984,
+    "n_constraints": 10,
+    "base_rate_min": 0.040234702430846606,
+    "base_rate_max": 0.9371387283236994,
+    "base_rate_sd": 0.35885921356581457,
+    "auc_state_only_UNSEEN": 0.7343428353984562,
+    "auc_action_only": 0.4550444803206304,
+    "auc_state_action": 0.714621513362338,
+    "SL_unseen": 0.25957703304170765,
+    "level_effect_share": 1.0918888406253262
+  },
+  "balanced": {
+    "file": "e16_constraints_balanced.pt",
+    "n": 8764,
+    "n_constraints": 10,
+    "base_rate_min": 0.5,
+    "base_rate_max": 0.5,
+    "base_rate_sd": 0.0,
+    "auc_state_only_UNSEEN": 0.5,
+    "auc_action_only": 0.5193341214026213,
+    "auc_state_action": 0.5192235696845485,
+    "SL_unseen": -0.00011055171807272668,
+    "level_effect_share": null
+  }
+}

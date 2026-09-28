@@ -1,0 +1,11 @@
+{
+  "domain": "hhrlhf",
+  "seed": 43,
+  "blind_curve": [],
+  "cond_curve": [],
+  "blind_acc": 0.6306666666666667,
+  "cond_acc": 0.6586666666666666,
+  "lift": 0.027999999999999914,
+  "lr": 2e-05,
+  "epochs": 5
+}

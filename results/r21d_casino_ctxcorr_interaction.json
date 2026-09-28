@@ -1,0 +1,12 @@
+{
+  "stratified_random": {
+    "auc_action": 0.47576357698540905,
+    "auc_sa_interaction": 0.6980052559518215,
+    "sl": 0.22224167896641245
+  },
+  "grouped": {
+    "auc_action": 0.5,
+    "auc_sa_interaction": 0.6980798794950427,
+    "sl": 0.1980798794950427
+  }
+}

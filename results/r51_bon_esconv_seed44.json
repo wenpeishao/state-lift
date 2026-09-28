@@ -1,0 +1,60 @@
+{
+  "domain": "esconv",
+  "seed": 44,
+  "n_trials": 600,
+  "n_states": 32,
+  "results": {
+    "blind": {
+      "2": {
+        "top1": 0.53,
+        "se": 0.020392640002636454,
+        "chance": 0.5
+      },
+      "4": {
+        "top1": 0.2833333333333333,
+        "se": 0.018411705808458412,
+        "chance": 0.25
+      },
+      "8": {
+        "top1": 0.16666666666666666,
+        "se": 0.01522721011965735,
+        "chance": 0.125
+      },
+      "16": {
+        "top1": 0.085,
+        "se": 0.011394797160863758,
+        "chance": 0.0625
+      }
+    },
+    "conditioned": {
+      "2": {
+        "top1": 0.54,
+        "se": 0.020363966998595003,
+        "chance": 0.5
+      },
+      "4": {
+        "top1": 0.295,
+        "se": 0.01863340207229963,
+        "chance": 0.25
+      },
+      "8": {
+        "top1": 0.15333333333333332,
+        "se": 0.014721806604031808,
+        "chance": 0.125
+      },
+      "16": {
+        "top1": 0.09333333333333334,
+        "se": 0.011885810497775012,
+        "chance": 0.0625
+      }
+    }
+  },
+  "lifts": {
+    "2": 0.010000000000000009,
+    "4": 0.011666666666666659,
+    "8": -0.013333333333333336,
+    "16": 0.008333333333333331
+  },
+  "metric": "within-state best-of-N top-1 selection accuracy, judge-free",
+  "note": "state is held fixed across candidates, so a pure level effect m(s) cannot win; this is the decision a reward model is deployed to make"
+}

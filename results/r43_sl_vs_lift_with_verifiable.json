@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "domain": "DoND",
+      "SL": 0.057,
+      "lift": 0.04276007497656982,
+      "n_seeds": 8
+    },
+    {
+      "domain": "ESConv",
+      "SL": 0.028,
+      "lift": 0.00845,
+      "n_seeds": 8
+    },
+    {
+      "domain": "CaSiNo",
+      "SL": 0.001,
+      "lift": 0.020883618427956753,
+      "n_seeds": 13
+    },
+    {
+      "domain": "HH-RLHF",
+      "SL": -0.003,
+      "lift": 0.030083333333333337,
+      "n_seeds": 8
+    },
+    {
+      "domain": "P4G",
+      "SL": -0.001,
+      "lift": 0.08794788273615628,
+      "n_seeds": 3
+    },
+    {
+      "domain": "Craigslist",
+      "SL": 0.003,
+      "lift": 0.08860759493670885,
+      "n_seeds": 3
+    },
+    {
+      "domain": "MultiWOZ(decon)",
+      "SL": 0.021,
+      "lift": 0.04422222222222224,
+      "n_seeds": 3
+    },
+    {
+      "domain": "Constraints-A (verifiable)",
+      "SL": 0.193,
+      "lift": 0.388259526261586,
+      "n_seeds": 3
+    }
+  ],
+  "all": {
+    "spearman": 0.2380952380952381,
+    "p": 0.5701563208157683,
+    "pearson": 0.9048718519866555,
+    "pearson_p": 0.0020014989041837287
+  },
+  "dialogue_only": {
+    "spearman": -0.14285714285714288,
+    "p": 0.7599453002180929
+  }
+}

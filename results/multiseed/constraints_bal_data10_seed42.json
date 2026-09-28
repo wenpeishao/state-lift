@@ -1,0 +1,71 @@
+{
+  "domain": "constraints_bal",
+  "seed": 42,
+  "blind_curve": [
+    {
+      "opt_step": 10,
+      "epoch": 0,
+      "eval_acc": 0.47539015606242496
+    },
+    {
+      "opt_step": 20,
+      "epoch": 0,
+      "eval_acc": 0.49459783913565425
+    },
+    {
+      "opt_step": 10,
+      "epoch": 1,
+      "eval_acc": 0.5066026410564226
+    },
+    {
+      "opt_step": 20,
+      "epoch": 1,
+      "eval_acc": 0.5126050420168067
+    },
+    {
+      "opt_step": 10,
+      "epoch": 2,
+      "eval_acc": 0.5138055222088835
+    },
+    {
+      "opt_step": 20,
+      "epoch": 2,
+      "eval_acc": 0.5342136854741897
+    }
+  ],
+  "cond_curve": [
+    {
+      "opt_step": 10,
+      "epoch": 0,
+      "eval_acc": 0.5078031212484994
+    },
+    {
+      "opt_step": 20,
+      "epoch": 0,
+      "eval_acc": 0.5366146458583433
+    },
+    {
+      "opt_step": 10,
+      "epoch": 1,
+      "eval_acc": 0.5774309723889556
+    },
+    {
+      "opt_step": 20,
+      "epoch": 1,
+      "eval_acc": 0.6134453781512605
+    },
+    {
+      "opt_step": 10,
+      "epoch": 2,
+      "eval_acc": 0.6638655462184874
+    },
+    {
+      "opt_step": 20,
+      "epoch": 2,
+      "eval_acc": 0.695078031212485
+    }
+  ],
+  "blind_acc": 0.5330132052821128,
+  "cond_acc": 0.7010804321728692,
+  "lift": 0.16806722689075637
+}

@@ -1,0 +1,28 @@
+{
+  "global": {
+    "n": 221178,
+    "sl_r2": 0.0016,
+    "sl_auc": 0.0053
+  },
+  "per_quartile_pc1": {
+    "Q1": {"n": 55295, "sl_r2": 0.0003, "sl_auc": 0.0039, "label_mean": 0.500},
+    "Q2": {"n": 55294, "sl_r2": 0.0016, "sl_auc": 0.0082, "label_mean": 0.500},
+    "Q3": {"n": 55293, "sl_r2": 0.0017, "sl_auc": 0.0074, "label_mean": 0.500},
+    "Q4": {"n": 55296, "sl_r2": 0.0017, "sl_auc": 0.0016, "label_mean": 0.500}
+  },
+  "per_quartile_norm": {
+    "Q1": {"n": 55294, "sl_r2": 0.0008, "norm_range": [0.12, 0.32]},
+    "Q2": {"n": 55294, "sl_r2": 0.0005, "norm_range": [0.32, 0.37]},
+    "Q3": {"n": 55295, "sl_r2": 0.0010, "norm_range": [0.37, 0.42]},
+    "Q4": {"n": 55295, "sl_r2": 0.0021, "norm_range": [0.42, 0.68]}
+  },
+  "heterogeneity": {
+    "max_quartile": "Q3",
+    "max_sl": 0.0017,
+    "min_quartile": "Q1",
+    "min_sl": 0.0003,
+    "range": 0.0014,
+    "is_heterogeneous": false
+  },
+  "interpretation": "HH-RLHF is uniformly state-independent across all state quartiles. Global SL=0 is not masking localized state-dependence."
+}

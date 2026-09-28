@@ -1,0 +1,7 @@
+{
+  "domain": "casino_dsplit",
+  "seed": 99,
+  "blind_acc": 0.8125,
+  "cond_acc": 0.5,
+  "lift": -0.3125
+}

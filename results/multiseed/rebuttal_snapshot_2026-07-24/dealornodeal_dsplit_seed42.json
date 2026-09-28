@@ -1,0 +1,7 @@
+{
+  "domain": "dealornodeal_dsplit",
+  "seed": 42,
+  "blind_acc": 0.6538821328344246,
+  "cond_acc": 0.6997193638914874,
+  "lift": 0.04583723105706272
+}

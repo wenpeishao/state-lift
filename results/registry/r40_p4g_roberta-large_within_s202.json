@@ -1,0 +1,17 @@
+{
+  "domain": "p4g",
+  "pt": "e9_p4g_data.pt",
+  "model": "roberta-large",
+  "permuted": false,
+  "within_state": true,
+  "SL": -0.4166666666666667,
+  "SL_sd": 0.5204164998665332,
+  "per_fold": [
+    0.0,
+    -1.0,
+    -0.25
+  ],
+  "n": 6000,
+  "seed": 202,
+  "threshold": 0.1
+}

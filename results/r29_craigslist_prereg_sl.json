@@ -1,0 +1,20 @@
+{
+  "random": {
+    "r2_action": 0.004550073726630055,
+    "r2_state_action": 0.012457809231967265,
+    "sl": 0.00790773550533721
+  },
+  "grouped": {
+    "r2_action": 0.003101883979936537,
+    "r2_state_action": 0.005928252074466722,
+    "sl": 0.002826368094530185
+  },
+  "n": 12000,
+  "preregistration": "SL measured 2026-07-24 BEFORE any reward-model training on this domain; prediction per one-directional rule to be recorded in results file by aggregating script",
+  "prereg_predictions": {
+    "timestamp": "2026-07-24T10:15 (before any reward-model training on this domain)",
+    "original_paper_rule": "SL=0.003 < 0.10 -> predicts ORM sufficient, lift < ~0.02",
+    "corrected_one_directional_rule": "low SL is UNINFORMATIVE (P4G lesson) -> no prediction",
+    "test": "e10 training decides: lift<0.03 supports original rule surviving here; lift>0.05 = second P4G-style false negative"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "dataset": "microsoft/ms_marco v1.1",
+  "n_judgments": 164190,
+  "n_queries": 20000,
+  "n_passages": 159842,
+  "ICC_label": 0.025718610509926295,
+  "pct_queries_both_labels": 0.9682,
+  "pct_actions_reused": 0.020976964752693283,
+  "C1": true,
+  "C2": false,
+  "admissible": false
+}

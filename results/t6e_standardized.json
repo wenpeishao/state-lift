@@ -1,0 +1,171 @@
+{
+  "results": {
+    "Math Reasoning": {
+      "name": "Math-GSM8K",
+      "n": 4569,
+      "SDI": 79.46005061169225,
+      "r2_outcome": 0.001479172706604004,
+      "r2_process": 0.11753513813018798,
+      "r2_blind_test": 0.0012909770011901855,
+      "r2_cond_test": 0.11240172386169434,
+      "rho_blind_test": 0.06437391469561052,
+      "rho_cond_test": 0.3486815329035056,
+      "prm_advantage_r2": 0.11111074686050415,
+      "prm_advantage_rank": 0.2843076182078951,
+      "type": "chain",
+      "sequential": true
+    },
+    "Web Navigation": {
+      "name": "WebNav-Mind2Web",
+      "n": 6729,
+      "SDI": 13.062345655267915,
+      "r2_outcome": 0.0154954195022583,
+      "r2_process": 0.20240652561187744,
+      "r2_blind_test": 0.015351355075836182,
+      "r2_cond_test": 0.1959228515625,
+      "rho_blind_test": 0.12458793376544366,
+      "rho_cond_test": 0.4449371869887133,
+      "prm_advantage_r2": 0.18057149648666382,
+      "prm_advantage_rank": 0.3203492532232697,
+      "type": "chain",
+      "sequential": true
+    },
+    "Code Reasoning": {
+      "name": "Code-CodeContests",
+      "n": 5500,
+      "SDI": 10.6075220862041,
+      "r2_outcome": 0.014834904670715332,
+      "r2_process": 0.15736157894134523,
+      "r2_blind_test": 0.0061089396476745605,
+      "r2_cond_test": 0.1269756555557251,
+      "rho_blind_test": 0.07207547895816346,
+      "rho_cond_test": 0.3343080474680324,
+      "prm_advantage_r2": 0.12086671590805054,
+      "prm_advantage_rank": 0.2622325685098689,
+      "type": "chain",
+      "sequential": true
+    },
+    "Emotional Support": {
+      "name": "ESConv",
+      "n": 12195,
+      "SDI": 3.830023799266954,
+      "r2_outcome": 0.04220038652420044,
+      "r2_process": 0.16162848472595215,
+      "r2_blind_test": 0.03867816925048828,
+      "r2_cond_test": 0.14406925439834595,
+      "rho_blind_test": 0.0986392630080198,
+      "rho_cond_test": 0.30550161788784336,
+      "prm_advantage_r2": 0.10539108514785767,
+      "prm_advantage_rank": 0.20686235487982357,
+      "type": "dialogue",
+      "sequential": true
+    },
+    "Tool-Use": {
+      "name": "ToolUse-Glaive",
+      "n": 6394,
+      "SDI": 1.8889664698500161,
+      "r2_outcome": 0.18932362794876098,
+      "r2_process": 0.35762598514556887,
+      "r2_blind_test": 0.21261543035507202,
+      "r2_cond_test": 0.3851582407951355,
+      "rho_blind_test": 0.45960666730721095,
+      "rho_cond_test": 0.6139078041108258,
+      "prm_advantage_r2": 0.17254281044006348,
+      "prm_advantage_rank": 0.15430113680361485,
+      "type": "dialogue",
+      "sequential": true
+    },
+    "Negotiation": {
+      "name": "Negotiation-CaSiNo",
+      "n": 5936,
+      "SDI": 1.8582937195602955,
+      "r2_outcome": 0.15935438871383667,
+      "r2_process": 0.2961272597312927,
+      "r2_blind_test": 0.14978694915771484,
+      "r2_cond_test": 0.28746694326400757,
+      "rho_blind_test": 0.33842175811428177,
+      "rho_cond_test": 0.4868271875245008,
+      "prm_advantage_r2": 0.13767999410629272,
+      "prm_advantage_rank": 0.14840542941021906,
+      "type": "dialogue",
+      "sequential": true
+    },
+    "Chat QA": {
+      "name": "HH-RLHF",
+      "n": 3549,
+      "SDI": 11.819366063558908,
+      "r2_outcome": 0.007790374755859375,
+      "r2_process": 0.09207729101181031,
+      "r2_blind_test": 0.015323460102081299,
+      "r2_cond_test": 0.09772801399230957,
+      "rho_blind_test": 0.10595632121430014,
+      "rho_cond_test": 0.23751676304965555,
+      "prm_advantage_r2": 0.08240455389022827,
+      "prm_advantage_rank": 0.13156044183535542,
+      "type": "dialogue",
+      "sequential": false
+    },
+    "Factual QA": {
+      "name": "FactualQA",
+      "n": 2821,
+      "SDI": 1.3955983832698169,
+      "r2_outcome": 0.11815855503082276,
+      "r2_process": 0.16490188837051392,
+      "r2_blind_test": 0.1229560375213623,
+      "r2_cond_test": 0.1570720076560974,
+      "rho_blind_test": 0.33722437769279123,
+      "rho_cond_test": 0.37464685935088476,
+      "prm_advantage_r2": 0.03411597013473511,
+      "prm_advantage_rank": 0.03742248165809353,
+      "type": "fake-sequential",
+      "sequential": false
+    },
+    "Code Gen": {
+      "name": "CodeGen",
+      "n": 2999,
+      "SDI": 1.0310715388478306,
+      "r2_outcome": 0.3704370856285095,
+      "r2_process": 0.38194713592529295,
+      "r2_blind_test": 0.3347048759460449,
+      "r2_cond_test": 0.3272799253463745,
+      "rho_blind_test": 0.5580157881513088,
+      "rho_cond_test": 0.5394199581316355,
+      "prm_advantage_r2": -0.00742495059967041,
+      "prm_advantage_rank": -0.018595830019673354,
+      "type": "fake-sequential",
+      "sequential": false
+    }
+  },
+  "correlations": {
+    "n": 9,
+    "pearson_log_sdi_vs_r2_gap": {
+      "r": 0.3649958197012376,
+      "p": 0.3341164848265151
+    },
+    "spearman_sdi_vs_r2_gap": {
+      "rho": 0.45,
+      "p": 0.2242161074923366
+    },
+    "pearson_log_sdi_vs_rank_gap": {
+      "r": 0.7800701903697864,
+      "p": 0.013147047675608503
+    },
+    "spearman_sdi_vs_rank_gap": {
+      "rho": 0.8166666666666667,
+      "p": 0.007224785246358785
+    },
+    "bootstrap_95ci_r2": [
+      -0.3858193979933109,
+      0.9460170697012802
+    ],
+    "bootstrap_95ci_rank": [
+      0.2110091743119266,
+      1.0
+    ]
+  },
+  "regression_rank": {
+    "a": 0.0619573865646584,
+    "b": 0.06818551581537646,
+    "R2": 0.6085095019035549
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "dataset": "mteb/msmarco",
+    "n": 9260,
+    "n_queries": 43,
+    "n_docs": 9139,
+    "score_values": [
+      0.0,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "ICC": 0.13991248062818123,
+    "pct_queries_varying": 1.0,
+    "pct_docs_reused": 0.00656526972316446,
+    "C1": true,
+    "C2": false,
+    "admissible": false
+  },
+  {
+    "dataset": "irds/msmarco-passage_trec-dl-2019_judged",
+    "error": "DatasetNotFoundError: Dataset 'irds/msmarco-passage_trec-dl-2019_judged' doesn't exist on the Hub or cannot be accessed."
+  }
+]

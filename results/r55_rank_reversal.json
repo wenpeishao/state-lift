@@ -1,0 +1,110 @@
+[
+  {
+    "file": "e16_constraints_balanced.pt",
+    "comparable_action_pairs": 181297,
+    "reversals": 88417,
+    "reversal_rate": 0.48769146759185206,
+    "se_binomial_naive": 0.0011739323331851595,
+    "ci95_cluster_bootstrap": [
+      0.40117466701334387,
+      0.5775844316402678
+    ],
+    "n_state_pairs": 42
+  },
+  {
+    "file": "e12_constraints_data.pt",
+    "comparable_action_pairs": 157124,
+    "reversals": 81026,
+    "reversal_rate": 0.5156818818258191,
+    "se_binomial_naive": 0.00126076757597074,
+    "ci95_cluster_bootstrap": [
+      0.444160100442589,
+      0.5864655818291943
+    ],
+    "n_state_pairs": 45
+  },
+  {
+    "file": "e13_constraints_v2_data.pt",
+    "comparable_action_pairs": 147589,
+    "reversals": 80705,
+    "reversal_rate": 0.5468225951798575,
+    "se_binomial_naive": 0.001295777262024967,
+    "ci95_cluster_bootstrap": [
+      0.4376355286804514,
+      0.6330323231959999
+    ],
+    "n_state_pairs": 45
+  },
+  {
+    "file": "e15_constraints_v3_data.pt",
+    "comparable_action_pairs": 118842,
+    "reversals": 63018,
+    "reversal_rate": 0.5302670772959055,
+    "se_binomial_naive": 0.0014477309402347992,
+    "ci95_cluster_bootstrap": [
+      0.4345421836042166,
+      0.6056757175657904
+    ],
+    "n_state_pairs": 45
+  },
+  {
+    "file": "e14_arithmetic_data.pt",
+    "comparable_action_pairs": 2218,
+    "reversals": 996,
+    "reversal_rate": 0.44905320108205593,
+    "se_binomial_naive": 0.010561435703152247,
+    "ci95_cluster_bootstrap": [
+      0.4293396980147453,
+      0.47016610567024153
+    ],
+    "n_state_pairs": 2260
+  },
+  {
+    "file": "e4_hh_data.pt",
+    "comparable_action_pairs": 23,
+    "reversals": 9,
+    "reversal_rate": 0.391304347826087,
+    "se_binomial_naive": 0.10176384751376008,
+    "ci95_cluster_bootstrap": [
+      0.21739130434782608,
+      0.5652173913043478
+    ],
+    "n_state_pairs": 23
+  },
+  {
+    "file": "e5_dealornodeal_data.pt",
+    "comparable_action_pairs": 0,
+    "reversals": 0,
+    "reversal_rate": NaN,
+    "se_binomial_naive": null,
+    "ci95_cluster_bootstrap": [
+      NaN,
+      NaN
+    ],
+    "n_state_pairs": 0
+  },
+  {
+    "file": "e20_prm800k_within.pt",
+    "applicable": false,
+    "conflicting_cells": 131,
+    "total_cells": 345,
+    "note": "labels are pairwise, not pointwise: the same (state, action) carries both labels depending on its partner"
+  },
+  {
+    "file": "e4_esconv_data.pt",
+    "applicable": false,
+    "conflicting_cells": 3697,
+    "total_cells": 12531,
+    "note": "labels are pairwise, not pointwise: the same (state, action) carries both labels depending on its partner"
+  },
+  {
+    "file": "e19_salient_pooled.pt",
+    "applicable": false,
+    "reason": "PAIRWISE: label is which of two items won its comparison"
+  },
+  {
+    "file": "e18_additive_pooled.pt",
+    "applicable": false,
+    "reason": "PAIRWISE: label is which of two items won its comparison"
+  }
+]
