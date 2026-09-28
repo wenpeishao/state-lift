@@ -1,0 +1,79 @@
+{
+  "blind": {
+    "best_eval_auc": 0.5559146200596291,
+    "best_eval_acc": 0.5673333333333334,
+    "best_epoch": 1,
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 0.547,
+        "eval_acc": 0.5673333333333334,
+        "eval_auc": 0.5559146200596291,
+        "loss": 0.9242616725921631,
+        "time": 181.2341628074646
+      },
+      {
+        "epoch": 2,
+        "train_acc": 0.5866,
+        "eval_acc": 0.5673333333333334,
+        "eval_auc": 0.5507539141871207,
+        "loss": 0.7306397804260254,
+        "time": 180.44687843322754
+      },
+      {
+        "epoch": 3,
+        "train_acc": 0.6298,
+        "eval_acc": 0.55,
+        "eval_auc": 0.5449447093214681,
+        "loss": 0.6643210052490235,
+        "time": 180.63646030426025
+      }
+    ]
+  },
+  "conditioned": {
+    "best_eval_auc": 0.5757370422988699,
+    "best_eval_acc": 0.562,
+    "best_epoch": 3,
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 0.5412,
+        "eval_acc": 0.5346666666666666,
+        "eval_auc": 0.5218352248645246,
+        "loss": 0.9588662298202515,
+        "time": 488.13092374801636
+      },
+      {
+        "epoch": 2,
+        "train_acc": 0.7004,
+        "eval_acc": 0.5513333333333333,
+        "eval_auc": 0.5444726602647476,
+        "loss": 0.6033348421096801,
+        "time": 487.11985635757446
+      },
+      {
+        "epoch": 3,
+        "train_acc": 0.8338,
+        "eval_acc": 0.562,
+        "eval_auc": 0.5757370422988699,
+        "loss": 0.37133338813781736,
+        "time": 486.48048663139343
+      }
+    ]
+  },
+  "summary": {
+    "blind_auc": 0.5559146200596291,
+    "blind_acc": 0.5673333333333334,
+    "conditioned_auc": 0.5757370422988699,
+    "conditioned_acc": 0.562,
+    "lift_auc": 0.0198224222392408,
+    "lift_acc": -0.005333333333333301
+  },
+  "metadata": {
+    "n_train": 5000,
+    "n_test": 1500,
+    "dataset": "deepmind/code_contests",
+    "quality_signal": "correct_vs_incorrect_solution",
+    "pca_variance_explained": 0.3930084705352783
+  }
+}

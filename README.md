@@ -117,10 +117,10 @@ Llama-3.1-8B-capable GPU (set `LLAMA_PATH` to a local checkpoint, default is the
 |---|---|---|---|
 | Table 1 (`tab:icc`, admissibility audit) | `scripts/statelift/admissibility_audit.py` | `results/admissibility_audit.json` | CPU |
 | Table 2 (`tab:statelift`, state-lift registry) | `scripts/statelift/t8b_agent_domains.py`, `t6c_mind2web_and_negotiation.py`, `r19_sl_dialogue_cv.py`, `r19b_sl_r17d_recipe_cv.py`, `r21c_casino_ctxcorr_exact_t8b.py`, `r22_p4g_sl_grouped.py`, `r24_uss_sl_grouped.py`, `r25_airdialogue_sl_grouped.py`, `r26_prosocial_sl_grouped.py`, `r29_craigslist_prereg_sl.py`, `r2_prm800k_statelift.py`; corrected (at-capacity) entries: `scripts/training/r40_registry_at_capacity.py`, `r36_capacity_ladder.py` | `results/t8b_agent_domains.json`, `t6c_mind2web_negotiation.json`, `r19_sl_dialogue_cv.json`, `r19b_sl_r17d_recipe_cv.json`, `r21c_casino_ctxcorr_exact_t8b.json`, `r22_..`/`r24_..`/`r25_..`/`r26_..`/`r29_..json`, `r2_prm800k_statelift.json`, `results/registry/*.json`, `results/capacity/*.json` | CPU (r36/r40: GPU) |
-| Table 3 (`tab:llm`, blind vs. conditioned training) | context-correctness rows: `scripts/training/e4_{math,tool,code,hh}_train.py` (+ `e4_*_slurm.sh`); genuine-label rows: `e6_multiseed_train.py` / `e6_multiseed_sscc.py` (+ `submit_multiseed.sh`) | `results/multiseed/<domain>_seed*.json`, `results/multiseed/AGGREGATE.json`; `e4_*_results.json` not included (see Known gaps) | GPU |
+| Table 3 (`tab:llm`, blind vs. conditioned training) | context-correctness rows: `scripts/training/e4_{math,tool,code,hh}_train.py` (+ `e4_*_slurm.sh`); genuine-label rows: `e6_multiseed_train.py` / `e6_multiseed_sscc.py` (+ `submit_multiseed.sh`) | `results/multiseed/<domain>_seed*.json`, `results/multiseed/AGGREGATE.json`; `results/e4_{math,tool,code,hh}_results.json` | GPU |
 | Table 4 (`tab:signals`), Table 5 (`tab:datasets`) | descriptive; `n` comes from the `scripts/data/` builders | -- | -- |
 | Table 6 (`tab:artifacts`, shuffled-state controls) | `scripts/statelift/t5b_artifact_check.py`, `t6b_fill_gaps_and_artifacts.py` | `results/t5b_artifact_check.json`, `results/t6b_fill_gaps_artifacts.json` | CPU |
-| Table 7 (`tab:downstream`, GSM8K beam search) | `scripts/data/r6_preprocess_local.py`, `scripts/training/r6_matched_downstream.py` (+ `r6_matched_slurm.sh`); best-of-N on low-SL domains: `r51_downstream_bon.py` | `r6_matched_downstream.json` not included (see Known gaps); `results/r51_bon_*_seed*.json` | GPU |
+| Table 7 (`tab:downstream`, GSM8K beam search) | `scripts/data/r6_preprocess_local.py`, `scripts/training/r6_matched_downstream.py` (+ `r6_matched_slurm.sh`); best-of-N on low-SL domains: `r51_downstream_bon.py` | `results/r6_matched_downstream.json`; `results/r51_bon_*_seed*.json` | GPU |
 | Table 8 (`tab:boundary_datasets`, four math step-grading sets) | `scripts/statelift/r2_prm800k_statelift.py`, `r12c_proper_mathshepherd.py`, `r14d_more_math.py` | `results/r2_prm800k_statelift.json`, `results/r12c_combined.json`, `results/r12c_mathshepherd_proper.json`; `r14d_combined.json` not included (see Known gaps) | CPU |
 | Table 9 (`tab:encoders`, eight encoding architectures) | `scripts/statelift/r13b_math_sl_methods.py`, `r9_prm800k_nonlinear.py`; frozen-LLM features: `scripts/training/r11_llm_feature_sl.py` (+ `r11_llm_feature_slurm.sh`) | `results/r13b_results.json`, `results/r9_prm800k_nonlinear.json`, `results/r11_llm_feature_sl.json`, `results/r11_resolution_comparison.csv` | CPU (r11: GPU) |
 | Table 10 (`tab:training_curves`, per-epoch metrics) | `scripts/training/e6_multiseed_sscc.py` | `results/multiseed/<domain>_seed*.json` (`blind_curve`, `cond_curve`) | GPU |
@@ -156,10 +156,9 @@ SLURM does not expand shell variables inside `#SBATCH` directives, so pass the p
 
 ## Known gaps
 
-* Result files that were left on the training cluster and are **not** in `results/`:
-  `e4_math_results.json`, `e4_tool_results.json`, `e4_code_results.json`, `e4_hh_results.json`
-  (Table 3, context-correctness rows), `r6_matched_downstream.json` (Table 7), `r14d_combined.json`
-  (Table 8, RLHFlow / trl-MathShepherd rows). The scripts that produce them are included.
+* One result file is **not** in `results/`: `r14d_combined.json` (Table 8, RLHFlow and
+  trl-MathShepherd rows; the values are in the paper). `scripts/statelift/r14d_more_math.py`, which
+  produces it, is included.
 * The base image of Figure 1 (`figures/source/fig0_headline.png`) was drawn with an external tool;
   `gen_fig0_headline_cr.py` only edits and annotates it.
 * LoRA adapter weights (`results/multiseed/adapters/`) are not included (size); the per-seed JSON

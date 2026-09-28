@@ -1,0 +1,62 @@
+{
+  "blind": {
+    "best_eval_acc": 0.622,
+    "best_epoch": 2,
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 0.5668,
+        "eval_acc": 0.576,
+        "loss": 0.8242875,
+        "time": 274.8539216518402
+      },
+      {
+        "epoch": 2,
+        "train_acc": 0.6374,
+        "eval_acc": 0.622,
+        "loss": 0.65088046875,
+        "time": 275.40692472457886
+      },
+      {
+        "epoch": 3,
+        "train_acc": 0.6732,
+        "eval_acc": 0.6073333333333333,
+        "loss": 0.6025609375,
+        "time": 275.1753628253937
+      }
+    ]
+  },
+  "state_conditioned": {
+    "best_eval_acc": 0.656,
+    "best_epoch": 3,
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 0.573,
+        "eval_acc": 0.5866666666666667,
+        "loss": 0.82609765625,
+        "time": 758.8980400562286
+      },
+      {
+        "epoch": 2,
+        "train_acc": 0.6546,
+        "eval_acc": 0.64,
+        "loss": 0.63049296875,
+        "time": 759.3437170982361
+      },
+      {
+        "epoch": 3,
+        "train_acc": 0.709,
+        "eval_acc": 0.656,
+        "loss": 0.5635001953125,
+        "time": 759.1855185031891
+      }
+    ]
+  },
+  "blind_Q1 near-mean": 0.6373333333333333,
+  "blind_Q2-Q3 moderate": 0.6213333333333333,
+  "blind_Q4 extreme": 0.6042780748663101,
+  "state_conditioned_Q1 near-mean": 0.624,
+  "state_conditioned_Q2-Q3 moderate": 0.6586666666666666,
+  "state_conditioned_Q4 extreme": 0.679144385026738
+}

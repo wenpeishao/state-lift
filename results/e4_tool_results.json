@@ -1,0 +1,79 @@
+{
+  "blind": {
+    "best_eval_auc": 0.48615556693624673,
+    "best_eval_acc": 0.4826666666666667,
+    "best_epoch": 1,
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 0.498,
+        "eval_acc": 0.4826666666666667,
+        "eval_auc": 0.48615556693624673,
+        "loss": 0.9050378057479859,
+        "time": 118.85643911361694
+      },
+      {
+        "epoch": 2,
+        "train_acc": 0.5048,
+        "eval_acc": 0.4826666666666667,
+        "eval_auc": 0.4750442780018352,
+        "loss": 0.7718030290603638,
+        "time": 119.27337908744812
+      },
+      {
+        "epoch": 3,
+        "train_acc": 0.5068,
+        "eval_acc": 0.494,
+        "eval_auc": 0.48390876953388956,
+        "loss": 0.7272538543701171,
+        "time": 119.21198105812073
+      }
+    ]
+  },
+  "conditioned": {
+    "best_eval_auc": 0.9893012611228474,
+    "best_eval_acc": 0.966,
+    "best_epoch": 3,
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 0.8048,
+        "eval_acc": 0.9313333333333333,
+        "eval_auc": 0.9784940500323638,
+        "loss": 0.4509258269786835,
+        "time": 274.02130651474
+      },
+      {
+        "epoch": 2,
+        "train_acc": 0.9562,
+        "eval_acc": 0.958,
+        "eval_auc": 0.9878137692138076,
+        "loss": 0.15061636715382337,
+        "time": 269.27316403388977
+      },
+      {
+        "epoch": 3,
+        "train_acc": 0.9748,
+        "eval_acc": 0.966,
+        "eval_auc": 0.9893012611228474,
+        "loss": 0.1166812700648792,
+        "time": 269.27263045310974
+      }
+    ]
+  },
+  "summary": {
+    "blind_auc": 0.48615556693624673,
+    "blind_acc": 0.4826666666666667,
+    "conditioned_auc": 0.9893012611228474,
+    "conditioned_acc": 0.966,
+    "lift_auc": 0.5031456941866007,
+    "lift_acc": 0.4833333333333333
+  },
+  "metadata": {
+    "n_train": 5000,
+    "n_test": 1500,
+    "dataset": "glaiveai/glaive-function-calling-v2",
+    "quality_signal": "action_in_correct_context_vs_wrong",
+    "pca_variance_explained": 0.4542737603187561
+  }
+}

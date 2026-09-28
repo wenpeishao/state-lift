@@ -1,0 +1,83 @@
+{
+  "blind": {
+    "best_eval_auc": 0.5259474384138363,
+    "best_eval_acc": 0.516,
+    "best_epoch": 1,
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 0.4966,
+        "eval_acc": 0.516,
+        "eval_auc": 0.5259474384138363,
+        "loss": 0.8912718772888184,
+        "time": 108.02770709991455
+      },
+      {
+        "epoch": 2,
+        "train_acc": 0.5058,
+        "eval_acc": 0.5,
+        "eval_auc": 0.5020330190021051,
+        "loss": 0.737808348083496,
+        "time": 107.49495267868042
+      },
+      {
+        "epoch": 3,
+        "train_acc": 0.5274,
+        "eval_acc": 0.49666666666666665,
+        "eval_auc": 0.5002160138248848,
+        "loss": 0.7044063472747802,
+        "time": 107.60524487495422
+      }
+    ]
+  },
+  "conditioned": {
+    "best_eval_auc": 0.9999982221084371,
+    "best_eval_acc": 0.9993333333333333,
+    "best_epoch": 3,
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_acc": 0.893,
+        "eval_acc": 0.9986666666666667,
+        "eval_auc": 0.9999946663253116,
+        "loss": 0.27539647253188304,
+        "time": 261.404278755188
+      },
+      {
+        "epoch": 2,
+        "train_acc": 0.999,
+        "eval_acc": 0.9993333333333333,
+        "eval_auc": 0.9999964442168743,
+        "loss": 0.003783850129682105,
+        "time": 256.39877104759216
+      },
+      {
+        "epoch": 3,
+        "train_acc": 0.9998,
+        "eval_acc": 0.9993333333333333,
+        "eval_auc": 0.9999982221084371,
+        "loss": 0.00033975738022709264,
+        "time": 256.28434586524963
+      }
+    ]
+  },
+  "summary": {
+    "blind_auc": 0.5259474384138363,
+    "blind_acc": 0.516,
+    "conditioned_auc": 0.9999982221084371,
+    "conditioned_acc": 0.9993333333333333,
+    "lift_auc": 0.47405078369460085,
+    "lift_acc": 0.4833333333333333
+  },
+  "metadata": {
+    "n_train": 5000,
+    "n_test": 1500,
+    "n_chains_train": 4418,
+    "n_chains_test": 1105,
+    "pca_variance_explained": 0.32525190711021423,
+    "dataset": "openai/gsm8k",
+    "split": "train",
+    "min_steps": 3,
+    "seed": 42
+  }
+}
